@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"
+			integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw=="
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+		<style type="text/css">
+			.koo {
+				height: 20px;
+				width: 20px;
+
+				background: green;
+			}
+
+			.col {
+				color: red;
+			}
+
+			.cal {
+				font-size: 16px;
+			}
+		</style>
+
+		<link rel="stylesheet" href="about_ghana.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>GHASAM</title>
+		<link rel="icon" type="text/css" href="img/ghasam-logo.png" />
+	</head>
+
+	<body>
+		<!-- Header -->
+		<section id="header">
+			<div class="header container">
+				<div class="nav-bar">
+					<div class="brand">
+						<!--<a href="#hero"><h1><span>G</span>hasam <span>L</span>ogo</h1></a> -->
+						<a href="index.html">
+							<img src="img/ghasam-logo.png" class="navbar__brand"
+						/></a>
+					</div>
+					<div class="nav-list">
+						<div class="hamburger"><div class="bar"></div></div>
+						<ul>
+							<li class="dropd dropd-small" id="scroll">
+								<a href="index.html#home" data-after="Home">Home</a>
+
+								<ul class="dropd-content dropd-content-small">
+									<li style="">
+										<a href="index.html#desc_mission">description/mission</a>
+									</li>
+									<li style="">
+										<a href="index.html#partners">Partners and Sponsors</a>
+									</li>
+								</ul>
+							</li>
+							  <li  class="dropd  dropd-small" > <a  data-after="About">About</a>
+         
+									<ul  class="dropd-content  dropd-content-small">
+									<li style=""><a href="index.html#desc_mission">description/mission</a></li>
+									<li style=""><a href="admin.html">Ghasam Admin</a></li>
+									<li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
+									<li style=""><a href="e-care.html">Ghasam E-Care</a></li>
+								</ul>
+
+
+
+            </li>
+							<li class="dropd dropd-small">
+								<a href="index.html#explore" data-after="Explore">Explore</a>
+
+								<ul class="dropd-content dropd-content-small move">
+									<li style=""><a href="about_ghana.html">about ghana</a></li>
+									<li style="">
+										<a href="about_morocco.html">about Morocco</a>
+									</li>
+									<li style="">
+										<a href="fsimaroc.html">foreign student in Morocco</a>
+									</li>
+									<li style=""><a href="sejour.html">Carte de sejour</a></li>
+									<li style=""><a href="holiday.html">Public Holidays</a></li>
+									<li style="">
+										<a href="oim.html">Opportunities in Morocco</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="dropd dropd-small">
+								<a href="index.html#heim" data-after="Projects"
+									>Study in Morocco</a
+								>
+
+								<ul class="dropd-content dropd-content-small">
+									<li style=""><a href="amci.html">AMCI</a></li>
+									<li style="">
+										<a href="higheredu.html">Higher Education in Morocco</a>
+									</li>
+									<li style="">
+										<a href="higheredu.html#c4"
+											>schools and courses description</a
+										>
+									</li>
+									<li style="">
+										<a href="higheredu.html#c5">study material</a>
+									</li>
+								</ul>
+							</li>
+
+
+							<li class="dropd dropd-small">
+								<a href="index.html#villes" data-after="Contact"
+									>Ghasam Section</a
+								>
+
+								<ul class="dropd-content dropd-content-small">
+									<li style=""><a href="">ghasam rabat</a></li>
+									<li style=""><a href="">ghasam fès</a></li>
+									<li style=""><a href="">ghasam kenitra</a></li>
+									<li style=""><a href="">Ghasam oujda</a></li>
+									<li style=""><a href="">Ghasam casablanca-mohammedia</a></li>
+									<li style=""><a href="">Ghasam setat</a></li>
+									<li style=""><a href="">Ghasam marakech</a></li>
+									<li style=""><a href="">Ghasam agadir</a></li>
+									<li style=""><a href="">Ghasam tanger</a></li>
+								</ul>
+							</li>
+
+							<li class="dropd dropd-small">
+								<a href="/more.html" data-after="Contact">More</a>
+
+								<ul class="dropd-content dropd-content-small move">
+									<li style=""><a href="more.html">constitution</a></li>
+									<!--<li style=""><a href="">Ghasam Admin</a></li>
+                 <li style=""><a href="">Partners and Sponsors</a></li>
+                 <li style=""><a href="">Ghasam E-Care</a></li> -->
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Header -->
+
+		<!-- Hero Section  -->
+		<section id="hero">
+			<div class="hero innerpage__showcase">
+				<div>
+					<h1 class="showcase__title">The Republic of Ghana</h1>
+					<!-- <h1> You <span></span></h1> -->
+					<!-- <a href="#projects" type="button" class="cta">Ghana Students In Morocco</a> -->
+				</div>
+			</div>
+		</section>
+		<!-- End Hero Section  -->
+
+		<section id="about" class="about-ghana">
+			<div class="about container">
+				<!--<div class="col-left">
+        <div class="about-img r3">
+          <img src="./img/obide1.jpg" alt="img">
+        </div>
+      </div> -->
+				<div class="col-right row flex-row-reverse mb-5">
+          <div class="col-xl-7 col-md">
+
+            <h1 class="section-title r4">Geography <span></span></h1>
+  
+            <p id="r2">
+              Ghana, formerly known as the Gold Coast, is a country in western
+              Africa just north of the Equator, situated between Cote d'Ivoire and
+              Togo, and bordered by Burkina Faso in north and by the Gulf of
+              Guinea (Atlantic Ocean) in south. Its capital and largest city is
+              <b>Accra</b>. <br /><br />
+  
+              The country covers an area of 238,533 km², and its terrain offers
+              mostly low plains with some scattered hills criss-crossed by rivers.
+              Main rivers are the Black Volta, the Red Volta and the White Volta,
+              they merge into one river Volta, which has been dammed at Akosombo
+              to form Lake Volta, the world's largest artificial lake.
+  
+              <br /><br />
+              Mount Afadja (or Afadjato) is Ghana's highest peak with just 885 m
+              (2,904 ft). The hill is located in the Agumatsa Range and the summit
+              of this peak is located near the border with Togo, in the Volta
+              Region of Ghana.
+            </p>
+          </div>
+          <div class="col col-md ghana-map">
+            	<div class="">
+						<img class="img1" src="photos/map-Ghana.jpeg" alt="Map of Ghana" />
+						<h2 class="centered text-muted fst-italic fs-6">
+							Political Map of the Republic of Ghana
+						</h2>
+					</div>
+	
+          </div>
+				</div>
+
+        <!-- GHANA PHOTO GALLERY -->
+          <div class="row ghana__gallery">
+            <div class="col-7 m-4 active image-panel" style="background-image: url('./photos/Aiport-City-Accra.jpg');">
+              <!-- <img class="img1" src="photos/Aiport-City-Accra.jpg" alt="ggg" /> -->
+              <h2 class="centered fst-italic fs-4 text-white">
+                The beautiful City of Accra, Ghana’s Capital
+              </h2>
+            </div>
+
+            <div class="col m-4 image-panel" style="background-image: url('./photos/Accra-1.jpg');" >
+              <!-- <img class="img1" src="photos/Accra-1.jpg" alt="ggg" /> -->
+              <h2 class="centered  fst-italic fs-4 text-white">Kwame Nkrumah Interchange</h2>
+            </div>
+
+            <div class="col m-4 image-panel" style="background-image: url('./photos/akosombo\ \(1\).jpg');">
+              <!-- <img class="img1" src="photos/akosombo (1).jpg" alt="ggg" /> -->
+              <h2 class="centered  fst-italic fs-4 text-white">The Volta Lake Dam, Akosombo</h2>
+            </div>
+
+            <div class="col m-4 image-panel" style="background-image: url('./photos/afadjato.jpg');">
+              <!-- <img class="img1" src="photos/Afadjato.jpg" alt="ggg" /> -->
+              <h2 class="centered  fst-italic fs-4 text-white">Mount Afadjato</h2>
+            </div>
+          </div>
+				</div>
+        <!-- GALLERY END -->
+			</div>
+		</section>
+
+		<section id="climate" class="climate">
+			<div class="container ">
+				
+				<div class="col-right">
+					<h1 class="section-title r4">Climates & Seasons <span></span></h1>
+
+					<p id="r2">
+						The climate seasons of Ghana is tropical and there are two main
+						seasons : the wet and the dry North Ghana experiences its rainy
+						season from April to mid Ghana experiences its rainy season from
+						March to midNovember .The October while South tropical climate Ghana
+						is relatively mild for its Ghana fro latitude . The harmattan m
+						December to March, lowering the , a dry humidity desert wind, blows
+						in north of east and causing hotter days and cooler nights in
+						northern part of Ghana .
+						<br /><br />
+
+						Average daily temperatures range from 30°C during the day to 24°C at
+						night with a relative humidity between 77 percent and 85 percent. In
+						the southern part of Ghana, there is a bimodal season rainy seasons:
+						April through June and September through November. Squalls occur in
+						the northern part of Ghana during March and April, followed by
+						occasional rain until August and September, when the rainfall
+						reaches its peak.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="about container">
+				<!--<div class="col-left">
+        <div class="about-img r3">
+          <img src="./img/obide1.jpg" alt="img">
+        </div>
+      </div> -->
+				<div class="col-right">
+					<h1 class="section-title r4">
+						Demographics, Arts & Culture <span></span>
+					</h1>
+					<h2>language</h2>
+					<p id="r2">
+						English is the official language, and the standard language for
+						education. Additionally, there are eleven languages that have the
+						status of government-sponsored languages: Ga, four Akan languages
+						(Asante Twi, Akuapem Twi, Fante and Nzema), two Mole-Dagbani ethnic
+						languages (Dagaare and Dagbanli), Ewe, Dangme, Guan and Kasem. Of
+						these, Akan is the most widely spoken. Among the Muslims, Hausa is
+						spoken widely.
+					</p>
+					<br />
+          <div class="row population-religion">
+            <div class="col-xl-5 col-lg">
+              <h2>Population, Religion and ethnic groups</h2>
+              <p id="r2">
+                Ghana's population is almost 28.3 million inhabitants (in 2016).
+                Christianity is the largest religion in Ghana, with approximately
+                71.2% of Ghana's population being member of various Christian
+                denominations. Approximately 18.6% are Muslims and 5.2% practise the
+                Traditional religion.
+                <br /><br />
+                Ghanaian culture is a diverse mixture of the practices and beliefs
+                of many different Ghanaian ethnic groups. The 2010 census reported
+                that the largest ethnic groups are the Akan (47.3 percent), the
+                Mole-Dagbani (16.6 percent), the Ewe (13.9 percent), the Ga-Dangme
+                (7.4 percent), the Gurma (5.7) and the Guan (3.7 percent).
+              </p>
+            </div>
+
+            <div class="col-lg cathedral">
+              <img class="img1" src="photos/church.jpg" alt="ggg" />
+              <h2 class="centered fst-italic fs-6 text-muted mt-2">Wesley Methodist Cathedral, Kumasi, Ghana</h2>
+            </div>
+          </div>
+					<br />
+					<h2>Cuisine</h2>
+					<p id="r2">
+						Some commonly consumed Ghanaian dishes include Banku (“akple”) and
+						Kenkey; common Ghanaian starchy foods made from ground corn (maize)
+						and cornmeal based staples, and are usually accompanied by some form
+						of fried fish (chinam) or grilled tilapia and a very spicy condiment
+						made from raw red and green chillies, onions and tomatoes (pepper
+						sauce). There is also
+						<b
+							><i
+								>Fufu, Waakye, Tuo Zaafi, Jollof rice, "Red-Red" (beans and fish
+								stew with fried plantain)</i
+							></b
+						>. Ghanaian dishes include an assortment of soups and stews with
+						varied seafood and red meat or chicken. Fish is important in the
+						Ghanaian diet with tilapia, roasted and fried whitebait
+						(“one-man-thousand”), smoked fish and crayfish all being common
+						components of Ghanaian dishes.
+						<br />
+						Banku and tilapia is a combo served in most Ghanaian restaurants.
+						Fufu is the most commonly exported Ghanaian dish, in that it is a
+						delicacy across the African diaspora
+					</p>
+					<br />
+		<div class=" slick-slider" data-bs-ride="carousel">
+            <div class="photo-slider owl-theme">
+              <div class="card ">
+                <img src="photos/banku.jpg" alt="ggg" class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center" >Banku and Tilapia</h2>
+              </div>
+              <div  class="card ">
+                <img src="photos/foo.jpeg" alt="ggg" class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center">Fufu and light soup</h2>
+              </div>
+              <div  class="card">
+                <img src="photos/beans.jpg" alt="ggg" class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center">Red-Red (Beans and Fried Plantain)</h2>
+              </div>
+              <div  class="card">
+                <img src="photos/joff.jpg" alt="ggg"  class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center">Jollof Rice</h2>
+              </div>
+  
+              <div class="slide-item card">
+                <img src="photos/tz.jpg" alt="ggg" class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center">Tuo Zaafi</h2>
+              </div>
+  
+              <div class="slide-item card waakye">
+                <img src="photos/waakye.jpg" alt="ggg" class="card-img-top"/>
+                <h2 class="card-title p-3 fs-4 text-center">Waakye</h2>
+              </div>
+            </div>
+		</div>
+
+					<div style="clear: both"></div>
+					<br />
+					<br />
+					<h2>Traditional Clothing</h2>
+					<p id="r2">
+						Ghanaians use many different cloth fabrics for their traditional
+						attire. The different ethnic groups have their own individual cloth.
+						The most well-known is the Kente cloth. Kente is a very important
+						Ghanaian national costume and clothing and these cloths are used to
+						make traditional and modern Ghanaian Kente attire.<br />
+						Different symbols and different colours mean different things. Kente
+						is the most famous of all the Ghanaian cloths. It is a ceremonial
+						cloth hand-woven on a horizontal treadle loom and strips measuring
+						about 4 inches wide are sewn together into larger pieces of cloths.
+						Cloths come in various colours, sizes and designs and are worn
+						during very important social and religious occasions.
+					</p>
+					<br />
+					<div class="row no-gutter">
+						<div class="col-lg-4 col-md-6 h-75">
+							<img class="img1 w-100 h-100" src="photos/kente1.jpg" alt="ggg"/>
+							<h2 class="centered fs-5 my-2">Royalty with the beautiful Kente</h2>
+						</div>
+
+						<div class="col-lg-4 col-md-6 culture-img">
+							<img class="img1 w-100" src="photos/kente2.jpg" alt="ggg" />
+							<h2 class="centered  fs-5 my-2">
+								Otumfuo Nana Osei Tutu II, King of the Asante Kingdom
+							</h2>
+						</div>
+
+						<div class="col-lg-4 col-md-6 h-75">
+							<img class="img1 w-100 h-100" src="photos/kente3.jpg" alt="ggg" />
+							<h2 class="centered fs-5 my-2">The beautiful Kente</h2>
+						</div>
+
+						<div class="col-lg-4 col-md-6 h-75">
+							<img class="img1 w-100 h-100" src="photos/kente4.png" alt="ggg" />
+							<h2 class="centered fs-5 my-2">The beautiful Kente</h2>
+						</div>
+
+						<div class="col-lg-4 col-md-6 culture-img">
+							<img class="img1 w-100 " src="photos/kente5.jpg" alt="ggg" />
+							<h2 class="centered fs-5 my-2">
+								Democrats in the US with Kente Cloth in 2020
+							</h2>
+						</div>
+					</div>
+
+					<br />
+
+					<p id="r2">
+						Another popular Ghanaian traditional clothing, the <b>Smock</b>, is
+						a plaid shirt that is similar to the dashiki, worn by men in Ghana.
+						There are also female versions of it. The smock is also called
+						<b>fugu</b> or a batakari in the northern region. While the Kente
+						cloth originated in the southern region of Ghana, the
+						<b>smock</b> originated from the northern region. It is worn by
+						kings in the three northern regions but is now popular across Ghana.
+						The smock and Kente cloth are the national dress of Ghana.
+					</p>
+					<br />
+
+					<div class="row smock">
+						<div class="col-xl-6 col-md-6">
+							<img class="img1 w-100" src="photos/smock1.jpg" alt="ggg" />
+							<h2 class="centered  fs-5">The traditional Damba dance in a smock</h2>
+						</div>
+
+						<div class="col-xl-6 col-md-6">
+							<img class="img1 w-100" src="photos/smock2.jpg" alt="ggg" />
+							<h2 class="centered  fs-5">
+								The Damba Festival of the Northern region of Ghana
+							</h2>
+						</div>
+
+						<div class="col-xl-6 col-md-6">
+							<img class="img1 w-100 ladies-smock" src="photos/smock3.jpg" alt="ggg" />
+							<h2 class="centered fs-5">Smock for Ladies</h2>
+						</div>
+
+						<div class="col-xl-6 col-md-6">
+							<img class="img1 w-100" src="photos/smock4.jpg" alt="ggg" />
+							<h2 class="centered fs-5">Smock for men</h2>
+						</div>
+					</div>
+
+					<br />
+					<br />
+					<div class="row flex-row-reverse">
+						<div class="col-xl-7 col-md">
+
+							<h2>Adinkra</h2>
+							<p id="r2">
+								During the 13th century, Ghanaians developed their unique art of
+								<b>Adinkra</b> printing. Hand-printed and hand-embroidered adinkra
+								clothes were made and used exclusively by the then Ghanaian royalty
+								for devotional ceremonies. Each of the motifs that make up the
+								corpus of adinkra symbolism has a name and meaning derived from a
+								proverb, a historical event, human attitude, ethology, plant
+								life-form, or shapes of inanimate and man-made objects. These are
+								graphically rendered in stylised geometric shapes. The meanings of
+								the motifs may be categorised into aesthetics, ethics, human
+								relations, and concepts.The Adinkra symbols also have a decorative
+								function as tattoos
+							</p>
+						</div>
+						<div class="col-md">
+							<img class="img1 h-75 w-100 adinkra-img" src="photos/adinkra.jpg" />
+							<h2 class="centered fs-5">Some Adinkra Symbols</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="contact container">
+				<div>
+					<h1 class="section-title">Contact <span>info</span></h1>
+				</div>
+				<div class="contact-items">
+					<div class="contact-item">
+						<div class="icon">
+							<img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+						</div>
+						<div class="contact-info">
+							<h1>Phone</h1>
+							<h2>+212 63 706 7409</h2>
+							<h2>+212 62 714 1121</h2>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="icon">
+							<img
+								src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+							/>
+						</div>
+						<div class="contact-info">
+							<h1>Email</h1>
+							<h2>ghasamaroc@gmail.com</h2>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="icon">
+							<img
+								src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+							/>
+						</div>
+						<div class="contact-info">
+							<h1>Address</h1>
+							<h2>
+								Ambassade du Ghana. 27, Rue Ghomara. La pinède- Souissi. Rabat,
+								Maroc.
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact Section -->
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="footer container">
+				<div class="brand">
+					<h1><span>S</span>ocial <span>M</span>edia</h1>
+				</div>
+				<h2></h2>
+				<div class="social-icon">
+					<div class="social-item">
+						<a href="https://m.facebook.com/ghasamofficial/"
+							><img
+								src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+						/></a>
+					</div>
+
+					<div class="social-item">
+						<a href="https://www.instagram.com/ghasam_national/"
+							><img
+								src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+						/></a>
+					</div>
+				</div>
+				<p>Copyright © 2021 Ghasam. All rights reserved</p>
+			</div>
+		</section>
+		<!-- End Footer -->
+		<script src="./app.js"></script>
+
+		<!-- <script type="text/javascript">
+			window.sr = ScrollReveal();
+			sr.reveal("#r2", {
+				duration: 2000,
+				origin: "left",
+				distance: "80px",
+				viewFactor: "0.1",
+			});
+
+			window.sr = ScrollReveal();
+			sr.reveal(".r3", {
+				duration: 2000,
+				origin: "right",
+				distance: "80px",
+				viewFactor: "0.1",
+			});
+
+			window.sr = ScrollReveal();
+			sr.reveal(".r4", {
+				duration: 2000,
+				origin: "top",
+				distance: "80px",
+				viewFactor: "0.1",
+			});
+
+			window.sr = ScrollReveal();
+			sr.reveal(".r5", {
+				duration: 2000,
+				origin: "bottom",
+				distance: "80px",
+				viewFactor: "0.1",
+			});
+
+			anime({
+				targets: ".koo",
+				translateX: anime.stagger(20),
+				duration: 3000,
+				loop: true,
+			});
+		</script> -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+
+    <script src="./js/expandingCard.js"></script>
+	</body>
+</html>

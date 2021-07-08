@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+<script src="https://use.fontawesome.com/f04f9ecf86.js"></script>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous"></script>
+<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+<style type="text/css">
+  .koo
+  {
+   height: 20px;
+   width:20px; 
+   
+   background: green;
+   
+  }
+
+  .col
+  {color: red;
+
+  }
+ 
+  .cal
+  {font-size: 16px;
+
+  }
+
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+ 
+</style>
+
+
+<link rel="stylesheet" href="holiday.css">
+<link rel="stylesheet" href="./css/style.css">
+ <title>GHASAM</title>
+<link rel="icon" type="text/css" href="img/ghasam-logo.png">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+           <!--<a href="#hero"><h1><span>G</span>hasam <span>L</span>ogo</h1></a> -->
+          <a href="index.html"><img src="img/ghasam-logo.png" class="navbar__brand"></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li class="dropd  dropd-small " id='scroll'><a  href="index.html#home" data-after="Home">Home</a>
+
+
+
+             <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="index.html#desc_mission">description/mission</a></li>
+                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
+               </ul>
+
+
+
+
+            </li>
+           <li  class="dropd  dropd-small" > <a  data-after="About">About</a>
+         
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="index.html#desc_mission">description/mission</a></li>
+                 <li style=""><a href="admin.html">Ghasam Admin</a></li>
+                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
+                 <li style=""><a href="e-care.html">Ghasam E-Care</a></li>
+               </ul>
+
+
+
+            </li>
+
+            <li   class="dropd  dropd-small"> <a href="index.html#explore" data-after="Explore">Explore</a>
+
+             
+             <ul  class="dropd-content  dropd-content-small move">
+                
+                 <li style=""><a href="about_ghana.html">about ghana</a></li>
+                 <li style=""><a href="about_morocco.html">about Morocco</a></li>
+                 <li style=""><a href="fsimaroc.html">foreign student in  Morocco</a></li>
+                 <li style=""><a href="sejour.html">Carte de sejour</a></li>
+                 <li style=""><a href="holiday.html">Public Holidays</a></li>
+                 <li style=""><a href="oim.html">Opportunities in Morocco</a></li>
+               </ul>
+
+
+          </li>
+           
+            <li  class="dropd  dropd-small"><a href="index.html#heim" data-after="Projects">Study in Morocco</a>
+
+                
+
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="amci.html">AMCI</a></li>
+                 <li style=""><a href="higheredu.html">Higher Education in Morocco</a></li>
+                 <li style=""><a href="higheredu.html#c4">schools and courses description</a></li>
+                 <li style=""><a href="higheredu.html#c5">study material</a></li>
+               </ul>
+
+           </li>
+            <li  class="dropd  dropd-small"><a href="index.html#villes" data-after="Contact">Ghasam Section</a>
+
+                 
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="">ghasam rabat</a></li>
+                 <li style=""><a href="">ghasam fès</a></li>
+                 <li style=""><a href="">ghasam kenitra</a></li>
+                 <li style=""><a href="">Ghasam oujda</a></li>
+                 <li style=""><a href="">Ghasam casablanca-mohammedia</a></li>
+                 <li style=""><a href="">Ghasam setat</a></li>
+                 <li style=""><a href="">Ghasam marakech</a></li>
+                 <li style=""><a href="">Ghasam agadir</a></li>
+                 <li style=""><a href="">Ghasam tanger</a></li>
+               </ul>
+
+
+                 </li>
+             
+
+
+
+
+
+             <li  class="dropd  dropd-small "  ><a href="/more.html" data-after="Contact">More</a>
+               
+
+                 <ul  class="dropd-content  dropd-content-small move">
+                 <li style=""><a href="more.html">constitution</a></li>
+                 <!--<li style=""><a href="">Ghasam Admin</a></li>
+                 <li style=""><a href="">Partners and Sponsors</a></li>
+                 <li style=""><a href="">Ghasam E-Care</a></li> -->
+               </ul>
+
+
+
+
+
+
+
+
+             </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero innerpage__showcase">
+      <div>
+        <h1 class="showcase__title">Public Holidays </h1>
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+
+
+ <section id="about">
+    <div class="about container">
+      
+      <div class="">
+        <p id="" class="r4">
+
+          Want to know the  National Holidays of the  Republic  of GHANA  and the Kingdom of MOROCCO? Find on this page a list of them.
+
+        </p>
+          <h2 class="r9"><b>2021 Public  and  Statutory Holidays  in Ghana  and  the Kingdom  of Morocco</b></h2>
+          <p class="text-left text-danger fst-bold">
+            <i  style="font-size: 20px" class="fa fa-check r10 "></i><b> indicates Holiday </b>
+          </p>
+         
+          
+      </div>
+        <div class="row flex-row-reverse holiday">
+            <div class="holiday__table col-9">
+                <table id="customers">
+              <tr class="r4">
+                <th>Date</th>
+                <th>Day</th>
+                <th>Holiday Type</th>
+                <th>Ghana</th>
+                <th>Morocco</th>
+              </tr>
+          
+              <tr>
+                <td>Jan 01</td>
+                <td>Thursday</td>
+                <td>New Year</td>
+                <td><i class="fa fa-check"></i></td>
+                <td> <i class="fa fa-check"></i></td>
+              </tr>
+
+              <tr>
+              <td>Jan 07</td>
+                <td>Thursday</td>
+                <td>Constitution Day</td>
+                <td><i class="fa fa-check"></i></td>
+                <td> </i></td>
+              </tr>
+
+
+              <tr>
+              <td>Jan 11</td>
+                <td>Thursday</td>
+                <td>Anniversary of the Indepndance Maninfesto</td>
+                <td></i></td>
+                <td> <i class="fa fa-check"></i></td>
+              </tr>
+
+              <tr>
+              <td>Mar 06</td>
+                <td>Saturday</td>
+                <td>Independance Day</td>
+                <td> <i class="fa fa-check"></i></td>
+                <td></td>
+              </tr>
+
+              <tr>
+              <td> Apr <br>02</td>
+                <td>Friday</td>
+                <td>Good Friday</td>
+                <td><i class="fa fa-check"></i></td>
+                <td> </td>
+              </tr>
+
+              <tr class="r9">
+              <td>Apr <br> 05</td>
+                <td>Monday</td>
+                <td>Easter Monday</td>
+                <td><i class="fa fa-check"></i></td>
+                <td></i></td>
+              </tr>
+
+              <tr>
+              <td>May 01</td>
+                <td>Saturday</td>
+                <td>Labour/May Day</td>
+                <td><i class="fa fa-check"></i></td>
+                <td> <i class="fa fa-check"></i></td>
+              </tr>
+
+          <tr>
+          <td>May 13</td>
+            <td>Thursday</td>
+            <td>Eid Al-fitr(End of Ramadan)</td>
+            <td><i class="fa fa-check"></i></td>
+            <td><i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr class="r4">
+          <td>May 14</td>
+            <td>Friday</td>
+            <td>Eid Al-fitr Holiday</td>
+            <td></i></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>May 25</td>
+            <td>Tuesday</td>
+            <td>Africa Unity Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>Jul<br> 01</td>
+            <td>Thursday</td>
+            <td>Republic Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr>
+          <td>Jul<br> 20</td>
+            <td>Tuesday</td>
+            <td>Eid Al-Adha</td>
+            <td><i class="fa fa-check"></i></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr class="r5">
+          <td>Ju1 <br> 21</td>
+            <td>Wednesday</td>
+            <td>Eid Al-Adha Holiday</td>
+            <td></i></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+
+
+          <tr>
+          <td>Jul<br>30</td>
+            <td>Friday</td>
+            <td>Throne Day</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+
+          <tr>
+          <td>Aug 04</td>
+            <td>Wednesday</td>
+            <td>Founders Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr>
+          <td>Aug 14</td>
+            <td>Saturday</td>
+            <td>Oued Ed-Dahab (Allegiance Day)</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>Aug 20</td>
+            <td>Friday</td>
+            <td>The King and the <br>People’s Revolution</td>
+            <td></i></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr class="r3">
+          <td>Aug 21</td>
+            <td>Saturday</td>
+            <td>King Mohamed VI’s Birthday<br>Youth Day</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>Sep 21</td>
+            <td>Tuesday</td>
+            <td>Kwame Nkrumah <br> Memorial Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr>
+          <td>Oct 19</td>
+            <td>Tuesday</td>
+            <td>The Prophet <br>Muhammad’s Birthday</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>Nov 06</td>
+            <td>Saturday</td>
+            <td>Anniversary of the Green March</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr class="r5">
+          <td>Nov 18</td>
+            <td>Thursday</td>
+            <td>Independance Day</td>
+            <td></td>
+            <td> <i class="fa fa-check"></i></td>
+          </tr>
+
+          <tr>
+          <td>Dec 03</td>
+            <td>Friday</td>
+            <td>Farmer's Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr>
+          <td>Dec 25</td>
+            <td>Saturday</td>
+            <td>Christmas Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td> </td>
+          </tr>
+
+          <tr>
+          <td>Dec 26</td>
+            <td>Sunday</td>
+            <td>Boxing Day</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          <tr class="r9">
+          <td>Dec 27</td>
+            <td>Monday</td>
+            <td>Christmas/Boxing Day Observed</td>
+            <td><i class="fa fa-check"></i></td>
+            <td></td>
+          </tr>
+
+          </table>
+            </div>
+            <div class="note col-3 ">
+           
+              <h1><b>Note that:</b></h1>
+
+              <ul class="li r4" style="list-style-type: decimal;font-style: italic;margin-left: 15px;">
+              
+                <li>***RAMADAN in Morocco 2021 begins on April 12 and ends on May 11</li>
+                <!-- <li class="r9">***Spring break for second semester 2021 begins on… and ends on… </li> -->
+                <li>The weekend in Morocco is Saturday and Sunday, though many workers work on Saturday,
+                   apart from public workers. </li>
+                <li class="r9">School days are usually from Monday to Friday, but some universities operate
+                   from Monday to Saturday.</li>
+                <li>*If a holiday falls on a weekend in Morocco, it is generally not moved to a week day.</li>
+              
+              </ul>
+            </div>
+        </div>
+     </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+212 63 706 7409</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>ghasamaroc@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Ambassade du Ghana. 27, Rue Ghomara. La pinède- Souissi. Rabat, Maroc. </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>S</span>ocial <span>M</span>edia</h1></div>
+      
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        
+      </div>
+      <p>Copyright © 2021 Ghasam. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+
+  <script type="text/javascript">
+    
+
+window.sr=ScrollReveal()
+sr.reveal('#r2',
+{duration:2000,
+  origin:'left',
+  distance:'60px',
+  viewFactor:'0.1'
+})
+
+
+window.sr=ScrollReveal()
+sr.reveal('.r3',
+{
+  duration:2000,
+  origin:'right',
+  distance:'40px',
+  viewFactor:'0.1'
+})
+
+window.sr=ScrollReveal()
+sr.reveal('.r4',
+{
+  duration:2000,
+  origin:'top',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+window.sr=ScrollReveal()
+sr.reveal('.r5',
+{
+  duration:2000,
+  origin:'bottom',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+
+window.sr=ScrollReveal()
+sr.reveal('.r9',
+{
+  duration:3000,
+  origin:'left',
+  distance:'60px',
+  viewFactor:'0.1'
+})
+
+
+window.sr=ScrollReveal()
+sr.reveal('.r10',
+{
+  duration:3000,
+  origin:'top',
+  distance:'60px',
+  viewFactor:'0.1'
+})
+
+
+
+ anime({targets:'.koo',
+  translateX:anime.stagger(20),
+  duration:3000,
+  loop:true
+
+}) 
+
+
+  </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous'></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+</body>
+</html>
