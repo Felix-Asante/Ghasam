@@ -106,6 +106,23 @@ pre {
           justify-content: center !important;
 }
 
+.bg-darker {
+  background: #29323c;
+  color: yellow !important;
+}
+
+.current {
+  color: yellow !important;
+}
+
+.text-yellow {
+  color: yellow !important;
+}
+
+.text-green {
+  color: #0aad33 !important;
+}
+
 .home-hero {
   height: 100vh !important;
 }
