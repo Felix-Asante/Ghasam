@@ -223,6 +223,10 @@ pre {
   }
 }
 
+#mission-description-explore .row {
+  padding: 0 4rem !important;
+}
+
 @media screen and (max-width: 1199px) {
   #mission-description-explore .row {
     -webkit-box-pack: center !important;
