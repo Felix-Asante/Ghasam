@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap");
+body {
+  font-size: 16px !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+p,
+a {
+  font-size: 17px !important;
+  line-height: 2;
+}
+
 button:focus {
   outline: none !important;
 }
@@ -28,6 +40,10 @@ ul {
   text-transform: capitalize !important;
 }
 
+#header .nav-list ul a {
+  font-size: 1rem !important;
+}
+
 @media screen and (max-width: 560px) {
   .accordion-button > h1 {
     font-size: 1.5rem;
@@ -49,7 +65,7 @@ ul {
 }
 
 .innerpage__showcase {
-  height: 80vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +83,7 @@ ul {
 
 .showcase__title {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem !important;
   color: white;
 }
 
@@ -125,6 +141,19 @@ pre {
 
 .morocco-dish {
   width: 93% !important;
+}
+
+.table-head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  z-index: 15;
+}
+
+@media screen and (max-width: 600px) {
+  .table-head {
+    top: 0;
+  }
 }
 
 .home-hero {
@@ -698,12 +727,12 @@ pre {
 
 #foreign__student .tabs .col-right .nav .nav-link {
   font-size: 1.5rem !important;
-  color: #29323c !important;
+  color: white !important;
 }
 
 #foreign__student .tabs .col-right .nav .active {
-  background: #29323c !important;
-  color: white !important;
+  background: transparent !important;
+  color: #ffc107 !important;
 }
 
 #foreign__student .section-title {
