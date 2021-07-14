@@ -5,8 +5,9 @@ body {
 }
 
 p,
-a {
-  font-size: 17px !important;
+a,
+li {
+  font-size: 16px !important;
   line-height: 2;
 }
 
