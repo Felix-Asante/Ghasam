@@ -9,6 +9,11 @@ a,
 li {
   font-size: 16px !important;
   line-height: 2;
+  font-weight: 400 !important;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 button:focus {
@@ -30,6 +35,10 @@ button:focus {
 
 .text-light {
   color: #f7f7f7;
+}
+
+.text-darker {
+  color: #29323c;
 }
 
 ol,

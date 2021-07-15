@@ -31,7 +31,7 @@ img {
 	position: relative;
 }
 #about .article-wrapper .article-navs {
-	border: 1px solid lightgray;
+	/* border: 1px solid lightgray; */
 	width: 100%;
 	height: 480px;
 	position: sticky;
