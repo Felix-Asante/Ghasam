@@ -33,6 +33,10 @@ button:focus {
   color: #ffff;
 }
 
+.bg-yellow {
+  background-color: #ffde00;
+}
+
 .bg-gradient-darker {
   background: rgba(41, 50, 60, 0.9) !important;
 }
@@ -233,6 +237,8 @@ textarea {
   position: fixed;
   left: 20px;
   top: 60%;
+  background: white;
+  padding: 0.7rem 0;
 }
 
 .social-toolbar img {
@@ -331,6 +337,7 @@ textarea {
 
 #message .container .row .message__image {
   z-index: 10;
+  margin-top: 6rem;
   position: relative;
 }
 
@@ -374,6 +381,37 @@ textarea {
 #message .container .row .message__text p {
   text-align: justify;
   width: 90%;
+}
+
+.about-ghasam {
+  margin: 7rem 0 !important;
+  height: 38rem !important;
+}
+
+.about-ghasam .image-container img {
+  height: 38rem !important;
+}
+
+.about-ghasam .text {
+  height: 100% !important;
+}
+
+#section-fun-facts img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#section-fun-facts img:hover {
+  -webkit-transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.contact-us {
+  margin-top: 5rem;
 }
 
 .contact-us .contact-items {
