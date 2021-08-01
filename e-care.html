@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous"></script>
+	<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+<style type="text/css">
+  .koo
+  {
+   height: 20px;
+   width:20px; 
+   
+   background: green;
+   
+  }
+
+  .col
+  {color: red;
+
+  }
+ 
+  .cal
+  {font-size: 16px;
+
+  }
+ 
+</style>
+
+
+<link rel="stylesheet" href="e-care.css">
+<link rel="stylesheet" href="./css/style.css">
+<title>GHASAM | E-CARE</title>
+<link rel="icon" type="text/css" href="img/ghasam-logo.png">
+
+</head>
+
+<body>
+  
+
+<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+           <!--<a href="#hero"><h1><span>G</span>hasam <span>L</span>ogo</h1></a> -->
+          <img src="img/ghasam-logo.png" class="navbar__brand">
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li class="dropd  dropd-small " id='scroll'><a  href="index.html#home" data-after="Home">Home</a>
+
+
+
+             <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="index.html#desc_mission">Description/Mission</a></li>
+                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
+               </ul>
+
+
+
+
+            </li>
+              <li  class="dropd  dropd-small" > <a  data-after="About">About</a>
+         
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="index.html#desc_mission">Description/Mission</a></li>
+                 <li style=""><a href="admin.html">Ghasam Admin</a></li>
+                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
+                 <li style=""><a href="e-care.html">Ghasam E-Care</a></li>
+               </ul>
+
+
+
+            </li>
+            <li   class="dropd  dropd-small"> <a href="index.html#explore" data-after="Explore">Explore</a>
+
+             
+             <ul  class="dropd-content  dropd-content-small move">
+                
+                 <li style=""><a href="about_ghana.html">About Ghana</a></li>
+                 <li style=""><a href="about_morocco.html">About Morocco</a></li>
+                 <li style=""><a href="fsimaroc.html">Foreign student in  Morocco</a></li>
+                 <li style=""><a href="sejour.html">Carte de sejour</a></li>
+                 <li style=""><a href="holiday.html">Public Holidays</a></li>
+                 <li style=""><a href="oim.html">Opportunities in Morocco</a></li>
+               </ul>
+
+
+          </li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li  class="dropd  dropd-small"><a href="index.html#heim" data-after="Projects">Study in Morocco</a>
+
+                
+
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="amci.html">AMCI</a></li>
+                 <li style=""><a href="higheredu.html">Higher Education in Morocco</a></li>
+                 <li style=""><a href="higheredu.html#c4">Schools and courses description</a></li>
+                 <li style=""><a href="higheredu.html#c5">Study Material</a></li>
+               </ul>
+
+           </li>
+
+            <li  class="dropd  dropd-small"><a href="index.html#villes" data-after="Contact">Ghasam Section</a>
+
+                 
+                 <ul  class="dropd-content  dropd-content-small">
+                 <li style=""><a href="">Ghasam Rabat</a></li>
+                 <li style=""><a href="">Ghasam Fès</a></li>
+                 <li style=""><a href="">Ghasam Kenitra</a></li>
+                 <li style=""><a href="">Ghasam Oujda</a></li>
+                 <li style=""><a href="">Ghasam Casablanca-Mohammedia</a></li>
+                 <li style=""><a href="">Ghasam Settat</a></li>
+                 <li style=""><a href="">Ghasam Marakech</a></li>
+                 <li style=""><a href="">Ghasam Agadir</a></li>
+                 <li style=""><a href="">Ghasam Tanger</a></li>
+               </ul>
+
+
+                 </li>
+             
+
+
+
+
+
+             <li  class="dropd  dropd-small "  ><a href="/more.html" data-after="Contact">More</a>
+               
+
+                 <ul  class="dropd-content  dropd-content-small move">
+                 <li style=""><a href="more.html">Constitution</a></li>
+                 <!--<li style=""><a href="">Ghasam Admin</a></li>
+                 <li style=""><a href="">Partners and Sponsors</a></li>
+                 <li style=""><a href="">Ghasam E-Care</a></li> -->
+               </ul>
+
+
+
+
+
+
+
+
+             </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero innerpage__showcase">
+      <div>
+        <h1 class="showcase__title">GHASAM E-Care</h1>
+        <!-- <h1> You <span></span></h1> -->
+        <!-- <a href="#projects" type="button" class="cta">Ghana Students In Morocco</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+
+
+ <section id="about">
+    <div class="about container">
+      <!--<div class="col-left">
+        <div class="about-img r3">
+          <img src="./img/obide1.jpg" alt="img">
+        </div>
+      </div> -->
+      <div class="col-right">
+        <h1 class="section-title r4">GHASAM E-Care<span></span></h1>
+
+        <h2>Objectives and Vision: </h2>
+
+        <p>
+        
+          Serve as an Insurance to address the welfare of Ghanaian students in Morocco, promoting a system of self-reliance in GHASAM as an Association and serving as a means of plugging the gap of possible contingencies. 
+           <br>
+           <br>
+           E-care seeks to amass a lot of resources over the years to be able to resolve any plight of the Ghanaian Student in Morocco, no matter how huge it may seem.  <br><br>
+
+
+           Objectives of the E-care are initially three-pronged as it grows to cover all other contingencies:
+        
+           <ul class="li r4" style="list-style-type: decimal;font-style: italic;margin-left: 15px;">
+             <li><b>Health Insurance:</b>
+              <br>
+                <ul class="li r4" style="list-style-type: disc;font-style: italic;margin-left: 18px;">
+                  <li>
+                     E-care ensures a complete refund of health expenses to its beneficiaries by 
+                     providing the remaining 10-20% to top up the 80-90% Health Insurance from the 
+                     AXA Assurance under the Moroccan Agency for International Cooperation (AMCI).  
+                     <strong>
+
+                       Click here to find out more about the<b> <a href="" style="color: red"> AXA-Assurance </a></b>
+                     </strong>
+
+                  </li>
+                  <br>
+
+                  <li>
+                    
+                   <i><b> ***In the Near Future***:</b></i> The Health Insurance should be able to cover parts of the health expenses of Ghanaian Students in Morocco who may no longer be under Ghana or AMCI scholarship. 
+
+                  </li>
+
+
+                </ul>
+
+
+             </li>
+
+             <br>
+
+             
+
+
+             <li>
+              <b>Support for Bereaved Students:</b>
+
+              <br>
+               
+               <ul class="li r4" style="list-style-type: disc;font-style: italic;margin-left: 18px;">
+                <li>
+                  In the case of the demise of a close relative of a student, E-Care extends monetary support to said student, as Ville delegates visit to give solace.
+
+                </li>
+                
+                <li>
+                  
+                  <b><i>***In the Near Future***:</i></b> In the case of an envisaged delay on the part of Scholarship Secretariat in procuring a flight ticket for a bereaved student, the E-care shall aim at footing the student’s ticket and then be reimbursed by Secretariat later.  
+                </li>
+
+               </ul>
+
+
+
+             </li>
+             
+             <br>
+
+
+              <li>
+              
+              <b>Financial Aid in times of crisis:</b>
+
+              <br>
+               
+               <ul class="li r4" style="list-style-type: disc;font-style: italic;margin-left: 18px;">
+                <li>
+                  
+                  In case of a long delay in the payment of the monthly stipend, E-care supports students with quick loans of the lowest interest rate; amount loaned is deducted from the student’s future stipend at the Embassy, at the end of the crisis. 
+
+                </li>
+                
+                <li>
+                  
+                  <b><i>***In the Near Future***:</i></b> E-care shall offer loans to students, even in the absence of delay in stipend payment. 
+                </li>
+
+               </ul>
+
+               </li>
+             
+            </ul>
+
+          </p>
+
+
+          <h2><b>Sources of Funding: </b></h2>
+          
+          <p>
+            GHASAM E-care is funded through:
+
+            <ul class="li r4" style="list-style-type: decimal;font-style: italic;margin-left: 15px;">
+               
+               <li>
+                <b><i>Internally Generated Funds from GHASAM Members:</i></b><br><br> 
+                 Students subscribing to the E-care are required to make an annual contribution of 200 MAD. The subscription has a flexible payment plan of quarterly (50 MAD for 3 months), half-yearly (100 MAD) and Annually (200 MAD).
+                 
+               </li>
+                
+                
+              
+
+               <li>
+                 <b>Funds from Sponsorships:</b>
+               </li>
+
+
+
+               <li>
+                 <b><i>Funds from Stake Holders:</i> </b>
+                  <br><br>
+                  <ul class="li r4" style="list-style-type: disc;font-style: italic;margin-left: 18px;">
+                    <li>Scholarship Secretariat </li>
+                    <li>Ghana Embassy in Morocco </li>
+                    <li>Ghanaian Moroccan Old Students Association (GHAMOSA) </li>
+                  </ul> 
+
+               </li>
+                 
+                 </ul>
+                 <br>
+                 <br>
+
+               <h2>  <b>Management of the E-Care:</b></h2>
+               
+               <p>
+               <ul class="li r4" style="list-style-type: decimal;font-style: italic;margin-left: 15px;">
+                 
+               <li> The E-care is managed by the E-Care Committee, headed by <b>Dr. Asante Boadi Junior</b> for the 2020/2021 Academic Year.</li>
+
+               <br>
+               
+               <li> Subscription is voluntary and per academic year (September to August).</li>
+               
+               <br>
+               <li> 
+                Students subscription/contribution is 200 MAD annually with a flexible payment plan of Quarterly <b>(50 MAD for 3 months)</b>, Half-yearly <b>(100 MAD for 6 months)</b> and Annually <b>(200 MAD for 12 months). </b>
+               </li>
+               <br>
+               
+               <li>
+                 The E-care covers <u><i>every GHASAM member</i></u> but Subscribers shall be prioritised, in the face of limited resources
+
+               </li>
+               <br>
+               
+
+               <li>
+                 
+                 Ville leaders are tasked with taking the payment from Ville members and depositing into the Association’s Bank Account
+
+               </li>
+               <br>
+               
+
+               <li>
+                 Under the Health Insurance, the remaining <i>10-20%</i> shall be paid to a student only after <i>AXA/AMCI </i> pays said student. Hence, any <i>forgery</i> of document detected and <i>rejected</i> by AXA Assurance shall equally be rejected by the <i>E-Care Committee.</i> 
+
+               </li>
+               <br>
+
+
+               <li>
+                 The E-Care Committee shall submit a monthly report to the student body on the management of the E-care to ensure transparency and accountability. 
+
+               </li>
+               <br>
+
+
+
+               <li>
+                 The E-Care Committee shall present a year-end report on the successes and challenges of the project, for collective review by the student body
+
+               </li>
+
+               </ul>
+
+              </p>
+
+              
+
+
+
+
+
+            </ul>
+
+          </p>  
+
+       
+
+         
+        
+       
+
+
+
+
+       </div>
+    </div>
+  </section>
+
+
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+  
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+212 63 706 7409</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>ghasamaroc@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Ambassade du Ghana. 27, Rue Ghomara. La pinède- Souissi. Rabat, Maroc. </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>S</span>ocial <span>M</span>edia</h1></div>
+      
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+       
+      </div>
+      <p>Copyright © 2021 Ghasam. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+
+  <script type="text/javascript">
+    
+
+window.sr=ScrollReveal()
+sr.reveal('#r2',
+{duration:2000,
+  origin:'left',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+
+window.sr=ScrollReveal()
+sr.reveal('.r3',
+{
+  duration:2000,
+  origin:'right',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+window.sr=ScrollReveal()
+sr.reveal('.r4',
+{
+  duration:2000,
+  origin:'top',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+window.sr=ScrollReveal()
+sr.reveal('.r5',
+{
+  duration:2000,
+  origin:'bottom',
+  distance:'80px',
+  viewFactor:'0.1'
+})
+
+
+window.sr=ScrollReveal()
+sr.reveal('.r9',
+{
+  duration:3000,
+  origin:'left',
+  distance:'60px',
+  viewFactor:'0.1'
+})
+
+
+
+
+ anime({targets:'.koo',
+  translateX:anime.stagger(20),
+  duration:3000,
+  loop:true
+
+}) 
+
+
+  </script>
+  	<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+</body>
+</html>
