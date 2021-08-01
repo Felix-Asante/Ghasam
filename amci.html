@@ -221,30 +221,48 @@
         
         <p>
 
-         <ul class="stylessh hyperlinks" style="list-style-type: none;color: blue;">
+         <ul class="stylessh hyperlinks nav flex-column nav-pills" style="list-style-type: none;color: blue;">
            
-           <li><a href="#no1" class="text-darker">AMCI</a></li>
-           <br>
-           
-           <li><a href="#no2" class="text-darker">Bourse Renewal </a></li>
-           <br>
-           
-          <li><a href="#no3" class="text-darker"> French Year </a></li>
-          
-          <br>
-          <li>  <a href="#no4" class="text-darker"> School Application or Change  </a>  </li>
+           <button type="button" class="nav-link active" id="pills-amci-tab" data-bs-toggle="pill" data-bs-target="#amci"  role="tab" aria-controls="amci" aria-selected="true">
+             <!-- <a href="" class="text-darker"> -->
+               AMCI
+
+             <!-- </a> -->
+             </button>           
+           <button type="button" class="nav-link" id="pills-bourse-tab" data-bs-toggle="pill" data-bs-target="#bourse"  role="tab" aria-controls="bourse" aria-selected="false">
+             <!-- <a href="" class="text-darker"> -->
+               Bourse Renewal
+                <!-- </a> -->
+           </button>
+          <button type="button" class="nav-link" id="pills-frenchY-tab" data-bs-toggle="pill" data-bs-target="#frenchYear"  role="tab" aria-controls="frenchYear" aria-selected="false">
+            <!-- <a href="" class="text-darker">  -->
+              French Year
+             <!-- </a> -->
+          </button>
+          <button type="button" lass="nav-link" id="pills-apply-tab" data-bs-toggle="pill" data-bs-target="#apply"  role="tab" aria-controls="apply" aria-selected="false">
+              <!-- <a href=" " class="text-darker">  -->
+                School Application or Change 
+               <!-- </a>   -->
+          </button>
+          <button type="button" lass="nav-link" id="pills-changes-tab" data-bs-toggle="pill" data-bs-target="#changes"  role="tab" aria-controls="changes" aria-selected="false">
+              <!-- <a href="" class="text-darker">  -->
+                School,Course,City Change
+              <!-- </a>  -->
+          </button>
          
-          <br>
-          <li>  <a href="#no5" class="text-darker"> School,Course,City Change</a> </li>
+          <button type="button" lass="nav-link" id="pills-apply2-tab" data-bs-toggle="pill" data-bs-target="#apply2"  role="tab" aria-controls="apply2" aria-selected="false">  
+            <!-- <a href="" class="text-darker"> -->
+             Application to intermediate level
+            <!-- </a>    -->
+          </button type="button">
          
          <br>
-          <li>  <a href="#no6" class="text-darker"> Application to intermediate level</a>   </li>
-         
-         <br>
-          <li>  <a href="#no7" class="text-darker"> University hostel Application</a> </li>
-         
-         <br>
-          <!-- <li>  <a href="#axa"> Axa</a> </li> -->
+          <button type="button" lass="nav-link" id="pills-university-tab" data-bs-toggle="pill" data-bs-target="#university"  role="tab" aria-controls="university" aria-selected="false">
+              <!-- <a href="" class="text-darker"> -->
+                 University hostel Application
+                <!-- </a> </li> -->
+                   <!-- <li>  <a href="#axa"> Axa</a>  -->
+          </button>
          
          </ul>
         
@@ -253,9 +271,9 @@
       </div>
       <!-- CONTENT LINK ENDS -->
       <!-- CONTENT START -->
-      <div class="content">
+      <div class="content tab-content">
       <!-- * AMCI -->
-        <div class="col-right amci">
+        <div class="col-right amci tab-pane fade show active" id="amci">
           <h1 class="section-title r4" id="no1">About Amci<span></span></h1>
         
           <p id="r2">
@@ -292,14 +310,15 @@
         </div>
        <!-- * AMCI END -->
        <!-- * BOURSE RENEWAL -->
-        <div class="col-right bourse-renewal" id="no2">
+       <!-- changes id from no2 -->
+        <div class="col-right bourse-renewal tab-pane fade show " id="bourse">
           <h1 class="section-title r4">BOURSE RENEWAL, CODE AND CALENDAR
               <span></span>
           </h1>
 
             <div>
               <img src="photos/bank.jpg">
-              <h2>la banque populaire </h2>
+              <h2 class="fs-5 text-muted text-center">la banque populaire </h2>
             </div>
         
             <br>
@@ -398,12 +417,12 @@
         </div>
   <!-- * BOURSE RENEWAL ENDS -->
         <!-- * ABOUT START  -->
-        <div class="col-right"  id="no3">
+        <div class="col-right tab-pane fade show"  id="frenchYear">
         <h1 class="section-title r4">FRENCH YEAR IN CIL<span></span></h1>
 
         <div>
           <img src="photos/centre.png">
-          <h2>Centre international de langue</h2>
+          <h2 class="fs-5 text-muted text-center">Centre international de langue</h2>
         </div><br>     
         
         <p id="r2">
@@ -418,7 +437,7 @@
       </div>
         <!-- * ABOUT END  -->
         <!-- * SCHOOL OR CHANGE -->
-        <div class="col-right school-change" id="no4">
+        <div class="col-right school-change tab-pane fade show" id="apply">
            <h1 class="section-title r4">SCHOOL APPLICATION OR CHANGE:<span></span></h1>
 
           <div>
@@ -432,11 +451,10 @@
           To this end, the students concerned must complete the Admission form (Formulaire d’Orientation), which can be obtained from the CIL, from AMCI or <b><a style="color: red" href="">downloadable from here. </a></b>
           The form accompanied by the required documents must be submitted within the time limit:<br><br>
 
-          <center class='li' >
             - Validation Certificate (Attestation de Réussite) from CIL<br><br>
           - French Language Transcript (Rélévé de notes) from CIL<br><br>
           - High School Results (WASSCE…)
-          </center><br><br>
+          <br><br>
         </p>
         <p class="r9">
             Admission into the various courses is done by the relevant AMCI departments after the announcement of the French language results from the CIL.<br><br>
@@ -450,8 +468,8 @@
       </div>
         <!-- * SCHOOL OR CHANGE END -->
         <!-- * SCHOOL- CITY -->
-              <div class="col-right school-city">
-        <h1 class="section-title r4" id="no5"> CHANGE OF SCHOOL, COURSE OR CITY <span></span></h1>
+              <div class="col-right school-city tab-pane fade show ">
+        <h1 class="section-title r4" id="changes"> CHANGE OF SCHOOL, COURSE OR CITY <span></span></h1>
 
         <h2>Required conditions:</h2>
         <p id="r2">
@@ -500,7 +518,7 @@
   
         <!-- * SCHOOL- CITY END -->
         <!-- * APPLICATION  -->
-      <div class="col-right" id="no6">
+      <div class="col-right tab-pane fade show" id="apply2">
            <h1 class="section-title r4">APPLICATION INTO INTERMEDIATE LEVELS: <span></span></h1>
 
             <h2>Required conditions:</h2>
@@ -514,7 +532,7 @@
               <li class="r4"> Professional Bachelor's,<br></li>
               <li >Engineering,<br></li>
               <li class="r3">Pharmacy,<br></li>
-              <li>The Higher Institute of Commerce and Business Administration (l’Institut Supérieur de Commerce et d’Administration des Entreprises, ISCAE). <a style='color: red' href="#">Click here </a> to find out all the necessary info required on ISCAE and how to apply, or visit the ISCAE website <a style='color: blue' href="#"><u> https://www.groupeiscae.ma/</u></a><br></li>
+              <li>The Higher Institute of Commerce and Business Administration (l’Institut Supérieur de Commerce et d’Administration des Entreprises, ISCAE). <a style='color: red' href="#">Click here </a> to find out all the necessary info required on ISCAE and how to apply, or <a href="https://www.groupeiscae.ma/" target="_blank" class="text-danger fw-bold">visit the ISCAE website</a> </li>
               <li class="r9">The National School of Commerce and Management (Ecoles Nationales de Commerce et de Gestion, ENCG),<br></li>
               <li>The School of Information Sciences (l’Ecole des Sciences de l’information, ESI), etc.</li>
             </ul>
@@ -543,21 +561,21 @@
           </p>
 
           <p>
-            The lists of accredited and open courses are available on the websites of the Moroccan Ministry 
-            of Higher Education, Scientific Research and Management Training (https://www.enssup.gov.ma/fr.html), 
-            Universities and Educational establishments and possibly on the AMCI website (https://www.amci.ma/)
+            The lists of accredited and open courses are available on the websites of the <a href="https://www.enssup.gov.ma/fr.html" class="fw-bold text-danger" target="_blank">Moroccan Ministry 
+            of Higher Education, Scientific Research and Management Training ,</a> 
+            Universities and Educational establishments and possibly on the <a href="https://www.amci.ma/" class="fw-bold text-danger" target="_blank">AMCI website</a>  
           </p>
         </p>
         
       </div>
       <!-- * APPLICATION END -->
       <!-- * university hostel -->
-          <div class="col-right" id="no7">
+          <div class="col-right tab-pane fade show" id="university">
         <h1 class="section-title r4">UNIVERSITY HOSTEL<span></span></h1>
 
        <div>
          <img src="photos/cite.jpg">
-         <h2>Cité  Universitaire Internationale</h2>
+         <h2 class="fs-5 text-muted text-center">Cité  Universitaire Internationale</h2>
        </div>
        <br>     
        <br>
@@ -571,7 +589,7 @@
          Applications for accommodation at the CUI must be submitted to AMCI within the allotted time and must include the following documents:
          <br>
        <ul class="li r4" style="font-style: italic;margin-left: 10px; list-style-type: disc;">
-        <li>CUI accommodation request form (Formulaire de demande d'hébergement), to be taken from the hostel administration or <b><a style="color: red" href="#">download from here</a></b> , duly completed</li>
+        <li>CUI accommodation request form (Formulaire de demande d'hébergement), to be taken from the hostel administration or <a style="color: red" href="#" class="fw-bold"> <strong>download from here</strong> </a> , duly completed</li>
           <li class="r4">Commitment form (Formulaire d'engagement) to comply with the hostel regulations, duly completed by the applicant;</li>
            <li>Certified photocopy of School enrolment certificate (Attestation d’Inscription), for the year concerned, indicating the level of studies;</li>
             <li class="r3">Photocopy of the valid residence permit (Carte de Séjour);</li>
@@ -697,7 +715,7 @@
   <!-- End Footer -->
   <script src="./app.js"></script>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     
 
 window.sr=ScrollReveal()
@@ -770,7 +788,7 @@ articleNav.addEventListener('click', (e)=>{
   }
 })
 
-  </script>
+  </script> -->
   <script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
 			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
