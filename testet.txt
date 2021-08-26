@@ -1,0 +1,56 @@
+	<div class="profile grid">
+							<!-- 1 -->
+							
+							<!-- 2 -->
+							
+							<!-- 3 -->
+							<div class="grid__item row gx-0">
+								<div class="profile__info col-xl-6">
+									<h1>FIAKPO DANIEL</h1>
+									<h2 style="color: yellow">General Secretary/PRO</h2>
+									<p>
+										Anaesthesia & Reanimation Student at Institut Supérieur des
+										Professions Infirmières et Techniques de Santé (ISPITS),
+										Rabat.<br />
+										contact: +212 60 645 7519
+									</p>
+								</div>
+								<div class="profile__img col-xl-6">
+									<img src="./img/crimson.jpg" alt="img" />
+								</div>
+							</div>
+							<!-- 4 -->
+							<div class="d-flex profile">
+								<div class="profile__info h-100 w-100">
+									<h1>PEACE ANABA</h1>
+									<h2 style="color: yellow">Financial Secretary</h2>
+									<p>
+										Business Administration Student, Specialising in Accounting &
+										Finance at Ecole Nationale de Commerce et de Gestion (ENCG),
+										Settat. <br />
+										Ville Leader of GHASAM Settat (2019-2020) <br />
+										Contact: +212 60 747 5247
+									</p>
+								</div>
+								<div class="profile__img h-100 w-100>
+									<img src="./img/peace.jpg" alt="img" class='h-100'/>
+								</div>
+							</div>
+							<!-- 5 -->
+							<div class="grid__item row gx-0">
+								<div class="profile__info col-xl-6">
+									<h1>OSEI SARFO BRYAN</h1>
+									<h2 style="color: yellow">Sports and Cultural Secretary</h2>
+
+									<p>
+										Economics Student at Ibn Tofail University, Kenitra <br />
+										Sports Committee Chairman <br />
+										Contact: +212 60 299 4842
+									</p>
+								</div>
+								<div class="profile__img col-xl-6">
+									<img src="./img/serious.jpg" alt="img" />
+								</div>
+							</div>
+							<!-- end-->
+						</div>

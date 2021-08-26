@@ -36,7 +36,7 @@ body {
 	color: #606060;
 	line-height: 30px;
 	padding: 0;
-	display: none;
+	/* display: none; */
 }
 body.boxed {
 	margin: 30px;
@@ -47,7 +47,7 @@ body .owl-stage .owl-item {
 	display: inline-block;
 }
 #wrapper {
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .de-navbar-left #wrapper {
 	overflow: visible;
@@ -3509,7 +3509,7 @@ span.icon {
 
 h2 {
 	display: inline-block;
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: relative;
 	left: 0;
 	right: 0;
@@ -5703,7 +5703,7 @@ a.read_more i {
 	header.header-mobile #mainmenu > li > span {
 		width: 36px;
 		height: 36px;
-		background: url(../images/ui/arrow-down.png) center no-repeat;
+		background: url(../assets/img/arrow-down.png) center no-repeat;
 		position: absolute;
 		right: 0;
 		margin-top: 10px;
@@ -5711,7 +5711,7 @@ a.read_more i {
 		cursor: pointer;
 	}
 	header.header-mobile #mainmenu li span.active {
-		background: url(../images/ui/arrow-up.png) center no-repeat;
+		background: url(../assets/img/arrow-up.png) center no-repeat;
 	}
 	header.header-mobile #mainmenu li > ul > li > span {
 		width: 36px;
@@ -5737,11 +5737,11 @@ a.read_more i {
 	}
 	header.header-light.header-mobile #mainmenu > li > span,
 	header.header-light.header-mobile #mainmenu li > ul > li > span {
-		background: url(../images/ui/arrow-down.png) center no-repeat;
+		background: url(../assets/img/arrow-down.png) center no-repeat;
 	}
 	header.header-light.header-mobile #mainmenu > li > span.active,
 	header.header-light.header-mobile #mainmenu li > ul > li > span.active {
-		background: url(../images/ui/arrow-up.png) center no-repeat;
+		background: url(../assets/img/arrow-up.png) center no-repeat;
 	}
 
 	#mainmenu li ul.mega {

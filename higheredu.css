@@ -17,9 +17,9 @@ a {
 .container {
 	/* min-height: 100vh; */
 	width: 100%;
-	display: flex;
+	/* display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; */
 }
 img {
 	height: 100%;
@@ -34,6 +34,7 @@ p,
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: 0.05rem;
+	text-align: left;
 }
 .section-title {
 	font-size: 4rem;
@@ -72,6 +73,9 @@ p,
 }
 .brand h1 span {
 	color: red;
+}
+strong.text-danger {
+	text-align: left;
 }
 
 /* Header section */
@@ -213,7 +217,7 @@ p,
 	background-size: cover;
 	background-position: top center;
 	position: relative;
-	z-index: -1;
+	z-index: 10;
 }
 #hero::after {
 	content: "";
@@ -222,7 +226,11 @@ p,
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(10, 10, 0);
+	background: linear-gradient(
+		to right,
+		rgba(14, 57, 75, 0.9) 20%,
+		rgba(3, 15, 39, 0) 100%
+	);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -443,7 +451,7 @@ p,
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
-	text-align: center;
+	/* text-align: center; */
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;

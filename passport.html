@@ -1,168 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <meta charset="utf-8">
+<title>GHASAM | Carte de sejour</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+		<link rel="icon" type="text/css" href="./assets/img/ghasam-logo.png" />
 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.countdown.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="passport.css" />
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous"></script>
-	<link
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+	<link href="css/coloring.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="./css/style.css">
+<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<!-- slick carousel css -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<link rel="stylesheet" href="./assets/iframe/iframe-lightbox.min.css">
 <style type="text/css">
-  .koo
-  {
-   height: 20px;
-   width:20px; 
-   
-   background: green;
-   
-  }
+			.koo {
+				height: 20px;
+				width: 20px;
 
-  .col
-  {color: red;
+				background: green;
+			}
 
-  }
- 
-  .cal
-  {font-size: 16px;
+			.col {
+				color: red;
+			}
 
-  }
- 
-</style>
-
-
-<link rel="stylesheet" href="passport.css">
-<link rel="stylesheet" href="./css/style.css">
-<title>GHASAM</title>
-<link rel="icon" type="text/css" href="img/ghasam-logo.png">
-
+			.cal {
+				font-size: 16px;
+			}
+		</style>
+		<script
+			src="https://kit.fontawesome.com/fc494360f4.js"
+			crossorigin="anonymous"
+		></script>
 </head>
 
 <body>
- <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-           <!--<a href="#hero"><h1><span>G</span>hasam <span>L</span>ogo</h1></a> -->
-           <a href="index.html"> <img src="img/ghasam-logo.png" class="navbar__brand"> </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li class="dropd  dropd-small " id='scroll'><a  href="index.html#home" data-after="Home">Home</a>
+    <div id="wrapper">
+      
+           	<!-- header begin -->
+			<header class="transparent header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="de-flex sm-pt10">
+								<div class="de-flex-col">
+									<!-- logo begin -->
+									<div id="logo">
+										<a href="index.html">
+											<img
+												alt=""
+												class="logo"
+												src="./assets/img/ghasam-logo.png"
+												width="80px"
+												height="80px"
+											/>
+											<img
+												alt=""
+												class="logo-2"
+												src="./assets/img/ghasam-logo.png"
+												width="30px"
+												height="30px"
+											/>
+											<!-- <img alt="" class="logo-2" src="images/logo.png" /> -->
+										</a>
+									</div>
+									<!-- logo close -->
+								</div>
+								<div class="de-flex-col header-col-mid">
+									<!-- mainmenu begin -->
+									<ul id="mainmenu">
+										<li>
+											<a href="index.html">HOME<span></span></a>
+											<ul>
+												<li>
+													<a href="#description">Description & Mission</a>
+												</li>
+												<li>
+													<a href="#section-fun-facts">Partners and sponsors</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">ABOUT<span></span></a>
+											<ul>
+												<!-- <li><a href="news.html">Description & Mission</a></li> -->
+												<li><a href="admin.html">Ghasam admin</a></li>
+												<!-- <li><a href="login.html">Partners and sponsors</a></li> -->
+											</ul>
+										</li>
+										<li>
+											<a href="#">EXPLORE<span></span></a>
+											<ul>
+												<li><a href="about_ghana.html">About Ghana</a></li>
+												<li><a href="about_morocco.html">About Morocco</a></li>
+												<li>
+													<a href="fsimaroc.html">Foreign student in Morocco</a>
+												</li>
+												<li><a href="sejour.html">Cart de sejour</a></li>
+												<li><a href="passport.html">Passport renewal</a></li>
+												<li><a href="holiday.html">Public holidays</a></li>
+												<li>
+													<a href="oim.html">Opportunities in Morocco</a>
+												</li>
+											</ul>
+										</li>
 
-
-
-             <ul  class="dropd-content  dropd-content-small">
-                 <li style=""><a href="index.html#desc_mission">description/mission</a></li>
-                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
-               </ul>
-
-
-
-
-            </li>
-
-             <li  class="dropd  dropd-small" > <a  data-after="About">About</a>
-         
-                 <ul  class="dropd-content  dropd-content-small">
-                 <li style=""><a href="index.html#desc_mission">description/mission</a></li>
-                 <li style=""><a href="admin.html">Ghasam Admin</a></li>
-                 <li style=""><a href="index.html#partners">Partners and Sponsors</a></li>
-                 <li style=""><a href="e-care.html">Ghasam E-Care</a></li>
-               </ul>
-
-
-
-            </li>
-
-          
-            <li   class="dropd  dropd-small"> <a href="index.html#explore" data-after="Explore">Explore</a>
-
-             
-             <ul  class="dropd-content  dropd-content-small move">
-                
-                 <li style=""><a href="about_ghana.html">about ghana</a></li>
-                 <li style=""><a href="about_morocco.html">about Morocco</a></li>
-                 <li style=""><a href="fsimaroc.html">foreign student in  Morocco</a></li>
-                 <li style=""><a href="sejour.html">Carte de sejour</a></li>
-                 <li style=""><a href="holiday.html">Public Holidays</a></li>
-                 <li style=""><a href="oim.html">Opportunities in Morocco</a></li>
-               </ul>
-
-
-          </li>
-            
-            <li  class="dropd  dropd-small"><a href="index.html#heim" data-after="Projects">Study in Morocco</a>
-
-                
-
-                 <ul  class="dropd-content  dropd-content-small">
-                 <li style=""><a href="amci.html">AMCI</a></li>
-                 <li style=""><a href="higheredu.html">Higher Education in Morocco</a></li>
-                 <li style=""><a href="higheredu.html#c4">schools and courses description</a></li>
-                 <li style=""><a href="higheredu.html#c5">study material</a></li>
-               </ul>
-
-           </li>
-
-            <li  class="dropd  dropd-small"><a href="index.html#villes" data-after="Contact">Ghasam Section</a>
-
-                 
-                 <ul  class="dropd-content  dropd-content-small">
-                 <li style=""><a href="">ghasam rabat</a></li>
-                 <li style=""><a href="">ghasam fès</a></li>
-                 <li style=""><a href="">ghasam kenitra</a></li>
-                 <li style=""><a href="">Ghasam oujda</a></li>
-                 <li style=""><a href="">Ghasam casablanca-mohammedia</a></li>
-                 <li style=""><a href="">Ghasam setat</a></li>
-                 <li style=""><a href="">Ghasam marakech</a></li>
-                 <li style=""><a href="">Ghasam agadir</a></li>
-                 <li style=""><a href="">Ghasam tanger</a></li>
-               </ul>
-
-
-                 </li>
-             
-
-
-
-
-
-             <li  class="dropd  dropd-small "  ><a href="/more.html" data-after="Contact">More</a>
-               
-
-                 <ul  class="dropd-content  dropd-content-small move">
-                 <li style=""><a href="more.html">constitution</a></li>
-                 <!--<li style=""><a href="">Ghasam Admin</a></li>
-                 <li style=""><a href="">Partners and Sponsors</a></li>
-                 <li style=""><a href="">Ghasam E-Care</a></li> -->
-               </ul>
-
-
-
-
-
-
-
-
-             </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
-
-
+										<li>
+											<a href="#">STUDYING IN MOROCCO<span></span></a>
+											<ul>
+												<li>
+													<a href="amci.html">Amci</a>
+												</li>
+												<li>
+													<a href="higheredu.html">High education in morocco</a>
+												</li>
+												<li>
+													<a href="#c4">Schools and courses description</a>
+												</li>
+												<li>
+													<a href="#c5">Study material</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">GHASAM SECTION<span></span></a>
+											<ul>
+												<li><a href="">Ghasam Rabat</a></li>
+												<li><a href="">Ghasam Fes</a></li>
+												<li><a href="">Ghasam Kenitra</a></li>
+												<li><a href="">Ghasam Oujda</a></li>
+												<li>
+													<a href="">Ghasam Casablanca-Mohammedia</a>
+												</li>
+												<li><a href="">Ghasam Settat</a></li>
+												<li><a href="">Ghasam Marakech</a></li>
+												<li><a href="">Ghasam Agadir</a></li>
+												<li><a href="">Ghasam Tanger</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">MORE<span></span></a>
+											<ul>
+												<li>
+													<a href="more.html">Constitution</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="de-flex-col">
+									<div class="h-phone">
+										<span>Need&nbsp;Help?</span
+										><i class="fa fa-phone id-color-secondary"></i> +212
+										637-067409
+									</div>
+									<span id="menu-btn"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- header close -->
+      
 
   <!-- Hero Section  -->
   <section id="hero">
@@ -175,17 +209,14 @@
     </div>
   </section>
   <!-- End Hero Section  -->
-
-
-
- <section id="about">
-    <div class="about container">
+  <section id="about">
+    <div class=" wrapper">
       <!--<div class="col-left">
         <div class="about-img r3">
           <img src="./img/obide1.jpg" alt="img">
         </div>
       </div> -->
-      <div class="col-right">
+      <div class="">
         <h1 class="section-title r4">PASSPORT RENEWAL AND APPLICATION<span></span></h1>
         
         <p id="r2">
@@ -235,10 +266,6 @@
           
           </ul>
 
-
-
-
-        
         </p>
         <p class="r5">
 
@@ -250,140 +277,90 @@
   </section>
 
 
+      <!-- footer begin -->
+			<footer class="bg-dark">
+				<div class="container">
+					<div class="row gap-sm">
+						<div class="col-lg-3">
+							<div class="widget">
+								<h5>Quick Link</h5>
+								<ul>
+									<li><a href="admin.html">Student Leaders</a></li>
+									<li><a href="about_ghana.html">About Ghana</a></li>
+									<li><a href="higheredu.html">Studying in Morocco</a></li>
+									<li><a href="amci.html">Amci</a></li>
+									<li><a href="axa.html">AXA Insurance</a></li>
+								</ul>
+							</div>
+						</div>
 
-  
+						<div class="col-lg-3">
+							<div class="widget">
+								<h5>Social Media</h5>
+								<p class="fs-6">
+									Connect with us on our social media platforms
+								</p>
+								<ul class="list-unstyled d-flex align-items-center">
+									<li class="mr-3">
+										<a href="" class="text-yellow">
+											<i class="fab fa-facebook fa-2x"></i>
+										</a>
+									</li>
 
+									<li>
+										<a href="" class="text-yellow">
+											<i class="fab fa-instagram fa-2x"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<h5>Locate Us</h5>
+							<div class="">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.4796215475167!2d-6.835612626819208!3d33.980212369116444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76ca0f4a0ece9%3A0x9e3079fab89aba19!2sEmbassy%20of%20Ghana!5e0!3m2!1sfr!2sma!4v1627753899895!5m2!1sfr!2sma"
+									width="100%"
+									height="200px"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+								></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- footer close -->
+        <a href="#" id="back-to-top"></a>
+    <!-- Javascript Files
+    ================================================== -->
+        <script src="js/jquery.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+        <script src="js/jpreLoader.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/enquire.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/typed.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/designesia.js"></script>
+          <script src="./app.js"></script>
 
-
-
- 
-
-
-
-
-
-
-
-
-  
-
-
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div><h1 class="section-title">Contact <span>info</span></h1></div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2> +212 63 706 7409</h2>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>ghasamaroc@gmail.com</h2>
-          
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2> Ambassade du Ghana. 27, Rue Ghomara. La pinède- Souissi. Rabat, Maroc. </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand"><h1><span>S</span>ocial <span>M</span>edia</h1></div>
-      
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
-        </div>
-        
-      </div>
-      <p>Copyright © 2021 Ghasam. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
-
-  <script type="text/javascript">
-    
-
-window.sr=ScrollReveal()
-sr.reveal('#r2',
-{duration:2000,
-  origin:'left',
-  distance:'80px',
-  viewFactor:'0.1'
-})
-
-
-window.sr=ScrollReveal()
-sr.reveal('.r3',
-{
-  duration:2000,
-  origin:'right',
-  distance:'80px',
-  viewFactor:'0.1'
-})
-
-window.sr=ScrollReveal()
-sr.reveal('.r4',
-{
-  duration:2000,
-  origin:'top',
-  distance:'80px',
-  viewFactor:'0.1'
-})
-
-window.sr=ScrollReveal()
-sr.reveal('.r5',
-{
-  duration:2000,
-  origin:'bottom',
-  distance:'80px',
-  viewFactor:'0.1'
-})
-
-
-window.sr=ScrollReveal()
-sr.reveal('.r9',
-{
-  duration:3000,
-  origin:'left',
-  distance:'60px',
-  viewFactor:'0.1'
-})
-
-
-
-
- anime({targets:'.koo',
-  translateX:anime.stagger(20),
-  duration:3000,
-  loop:true
-
-}) 
-
-
-  </script>
-  	<script
+	<!-- slick JS -->
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
 			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
 			crossorigin="anonymous"
@@ -393,5 +370,52 @@ sr.reveal('.r9',
 			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 			crossorigin="anonymous"
 		></script>
+<script src="./assets/js/fslightbox.js"></script>
+    <script src="./js/expandingCard.js"></script>
+<script>
+	[].forEach.call(
+	document.getElementsByClassName("iframe-lightbox-link"),
+	function (el) {
+		el.lightbox = new IframeLightbox(el);
+	}
+);
+
+	$(document).ready(function(){
+  $('.slick-slider').slick({
+	  autoplay:true,
+	  autoplaySpeed:3000,
+	  arrows:false,
+dots:true,
+ slidesToShow: 3,
+  slidesToScroll: 3
+  });
+});
+
+</script>
+  <script>
+    const menu = document.getElementById('lines')
+    const tabLinks = document.querySelector('.nav-pills')
+    const links = tabLinks.querySelectorAll('.nav-link')
+
+    menu.addEventListener('click',()=>{
+      menu.classList.toggle('open')
+      tabLinks.classList.toggle('active')
+    })
+    
+    links.forEach(link=>{
+      link.addEventListener('click',()=>{
+        tabLinks.classList.remove('active')        
+        menu.classList.remove('open')        
+      })
+    })
+
+    // window.addEventListener('resize',()=>{
+    //   console.log(window.innerWidth)
+    //   if(window.innerWidth<=600){
+    //     document.querySelector('.gallery').classList.remove('ghana__gallery')
+    //   }
+    // })
+  </script>
 </body>
+
 </html>
