@@ -265,7 +265,7 @@
 									data-splitout="none"
 									data-responsive_offset="on"
 								>
-									<h1>GHASAM Welcomes You</h1>
+									<h1 class="welcome"></h1>
 								</div>
 
 								<div
@@ -757,65 +757,80 @@
 						<div class="row no-gutters">
 							<div class="col-lg-3 col-md-6">
 								<div
-									class="feature-box f-boxed style-3"
-									data-bgcolor="rgba(0,0,0,.4)"
-								>
-									<a href="#"
-										><i
-											class="bg-color-secondary i-boxed fa fa-address-card"
-										></i
-									></a>
-									<div class="text">
-										<a href="#"><h4>Carte de sejour</h4></a>
-									</div>
-									<i class="wm fa fa-address-card"></i>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div
-									class="feature-box f-boxed style-3"
-									data-bgcolor="rgba(0,0,0,.3)"
-								>
-									<a href="#"
-										><i
-											class="bg-color-secondary i-boxed fa fa-address-card"
-										></i
-									></a>
-									<div class="text">
-										<a href="#"><h4>Passport renewal</h4></a>
-									</div>
-									<i class="wm fa fa-address-card"></i>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div
-									class="feature-box f-boxed style-3"
+									class="feature-box f-boxed style-3 h-100"
 									data-bgcolor="rgba(0,0,0,.2)"
 								>
-									<a href="#"
+									<a href="amci.html"
 										><i class="bg-color-secondary i-boxed fa fa-file-text"></i
 									></a>
 									<div class="text">
-										<a href="#"><h4>AMCI</h4></a>
+										<a href="amci.html"><h4>AMCI</h4></a>
 									</div>
 									<i class="wm fa fa-file-text"></i>
 								</div>
 							</div>
+							<div class="col-lg-2 col-md-6">
+								<div
+									class="feature-box f-boxed style-3"
+									data-bgcolor="rgba(0,0,0,.4)"
+								>
+									<a href="sejour.html"
+										><i
+											class="bg-color-secondary i-boxed fa fa-address-card"
+										></i
+									></a>
+									<div class="text">
+										<a href="sejour.html"><h4>Carte de sejour</h4></a>
+									</div>
+									<i class="wm fa fa-address-card"></i>
+								</div>
+							</div>
 
-							<div class="col-lg-3 col-md-6">
+							<div class="col-lg-2 col-md-6">
+								<div
+									class="feature-box f-boxed style-3"
+									data-bgcolor="rgba(0,0,0,.3)"
+								>
+									<a href="passport.html"
+										><i
+											class="bg-color-secondary i-boxed fa fa-address-card"
+										></i
+									></a>
+									<div class="text">
+										<a href="passport.html"><h4>Passport renewal</h4></a>
+									</div>
+									<i class="wm fa fa-address-card"></i>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-6">
 								<div
 									class="feature-box f-boxed style-3"
 									data-bgcolor="rgba(0,0,0,.1)"
 								>
-									<a href="#"
+									<a href="axa.html"
 										><i class="bg-color-secondary i-boxed far fa-building"></i
 									></a>
 									<div class="text">
-										<a href="#"><h4>AXA Insurance</h4></a>
+										<a href="axa.html"><h4>AXA Insurance</h4></a>
 									</div>
 									<i class="wm far fa-building"></i>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div
+									class="feature-box f-boxed style-3 h-100"
+									data-bgcolor="rgba(0,0,0,.3)"
+								>
+									<a href="e-care.html"
+										><i
+											class="bg-color-secondary i-boxed fa fa-address-card"
+										></i
+									></a>
+									<div class="text">
+										<a href="e-care.html"><h4>E-Care</h4></a>
+									</div>
+									<i class="wm fa fa-address-card"></i>
 								</div>
 							</div>
 						</div>
@@ -1430,5 +1445,14 @@
 			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var options = {
+				strings: ["GHASAM Welcomes You"],
+				typeSpeed: 40,
+			};
+
+			var typed = new Typed(".welcome", options);
+		</script>
 	</body>
 </html>
