@@ -367,6 +367,28 @@ textarea {
       grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.grid-2 .d-flex {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
 #about .about {
   padding: 0 !important;
 }
@@ -422,9 +444,20 @@ textarea {
 }
 
 .nsc-definition {
-  padding-top: 8rem;
-  font-size: 2rem !important;
+  font-size: 1.6rem !important;
   line-height: 1.5;
+}
+
+.past-executives-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .past-executives-nav {
+    top: 10%;
+  }
 }
 
 .home-hero {
@@ -1645,17 +1678,8 @@ textarea {
   color: transparent !important;
 }
 
-@media screen and (max-width: 942px) {
-  .ghasam-admins .nav-pills {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-  }
-}
-
 .ghasam-admins .nav-pills .nav-link {
-  color: #29323c !important;
+  color: white !important;
   font-size: 1.5rem;
   text-decoration: none !important;
 }
@@ -1679,12 +1703,17 @@ textarea {
   margin: auto;
 }
 
+.ghasam-admins .tab-content .grid-2 {
+  height: 100% !important;
+}
+
 .ghasam-admins .tab-content .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
+  height: 100% !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -1692,6 +1721,13 @@ textarea {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+}
+
+.ghasam-admins .tab-content .grid .d-flex {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .ghasam-admins .tab-content .profile-slick .d-flex {
@@ -1704,9 +1740,7 @@ textarea {
   padding: 2rem 1rem;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-flex: 55%;
-      -ms-flex: 55%;
-          flex: 55%;
+  height: 55%;
 }
 
 .ghasam-admins .tab-content .profile__info p,
@@ -1715,9 +1749,7 @@ textarea {
 }
 
 .ghasam-admins .tab-content .profile__img {
-  -webkit-box-flex: 45%;
-      -ms-flex: 45%;
-          flex: 45%;
+  height: 40%;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);

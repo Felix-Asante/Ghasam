@@ -231,27 +231,80 @@
 
 			<div class="ghasam-admins mb-5">
 				<div class="container">
-					<div class="row align-items-center">
-						<!-- ! TABS -->
-						<div class="col-xl-3 col-lg nsc">
-							<h1 class="h1">GHASAM</h1>
-							<h1 class="h1">NATIONAL</h1>
-							<h1 class="h1">EXECUTIVE</h1>
-							<h1 class="h1">COMMITTEE</h1>
-							<h1 class="h1">2020/2021</h1>
-						</div>
-						<!-- *CONTENT -->
-						<div class="tab-content col-xl-9 col-lg">
-							<!-- ! new executives -->
-							<div
-								class="current-executives tab-pane fade show active"
-								id="current-executives"
-								role="tabpanel"
-								aria-labelledby="current-executives"
+					<div class="d-flex flex-column align-items-center">
+						<div
+							class="
+								nav nav-pills
+								me-3
+								mb-4
+								bg-success
+								p-3
+								rounded-pill
+								justify-content-center
+							"
+							id="v-pills-tab"
+							role="tablist"
+							aria-orientation="vertical"
+						>
+							<button
+								class="nav-link active"
+								id="v-pills-home-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-home"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-home"
+								aria-selected="true"
 							>
-								<div class="profile-slick">
+								GHASAM NSC
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-profile-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-profile"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-profile"
+								aria-selected="false"
+							>
+								STEERING COMMITTEE
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-messages-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-messages"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-messages"
+								aria-selected="false"
+							>
+								OTHER COMMITTEES
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-settings-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-settings"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-settings"
+								aria-selected="false"
+							>
+								PAST EXECUTIVES
+							</button>
+						</div>
+						<div class="tab-content" id="v-pills-tabContent">
+							<div
+								class="tab-pane fade show active"
+								id="v-pills-home"
+								role="tabpanel"
+								aria-labelledby="v-pills-home-tab"
+							>
+								<div class="grid">
 									<!-- *1 -->
-									<div class="d-flex profile">
+									<div class="d-flex flex-column profile">
 										<div class="profile__info h-100 w-100">
 											<h1>ALVIN FIANU</h1>
 											<h2 style="color: yellow">President</h2>
@@ -341,41 +394,18 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<!-- ! end of new executives -->
-					</div>
-					<!-- * END OF CONTENT -->
-				</div>
-			</div>
-			<div class="ghasam-admins bg-light nsc-leaders">
-				<div class="container">
-					<h1 class="h1 text-center admin-title">
-						NATIONAL STEERING COMMITTEE 2020/2021
-					</h1>
-
-					<div class="row align-items-start">
-						<!-- ! TABS -->
-						<div class="col-xl-3 col-lg nsc">
-							<!-- <h1 class="h1">NATIONAL</h1>
-							<h1 class="h1">EXECUTIVE</h1>
-							<h1 class="h1">COMMITTEE</h1>
-							<h1 class="h1">2020/2021</h1> -->
-							<p class="nsc-definition">
-								The National Steering Committee (NSC) represents the Parliament
-								of the Association and serves as a link between the student body
-								and the National Executive Committe
-							</p>
-						</div>
-						<!-- *CONTENT -->
-						<div class="tab-content col-xl-9 col-lg">
-							<!-- ! new executives -->
 							<div
-								class="current-executives tab-pane fade show active"
-								id="current-executives"
+								class="tab-pane fade"
+								id="v-pills-profile"
 								role="tabpanel"
-								aria-labelledby="current-executives"
+								aria-labelledby="v-pills-profile-tab"
 							>
-								<div class="profile-slick">
+								<p class="nsc-definition">
+									The National Steering Committee (NSC) represents the
+									Parliament of the Association and serves as a link between the
+									student body and the National Executive Committe
+								</p>
+								<div class="grid">
 									<!-- *1 -->
 									<div class="d-flex">
 										<div class="profile__info">
@@ -591,31 +621,13 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<!-- ! end of new executives -->
-					</div>
-					<!-- * END OF CONTENT -->
-				</div>
-			</div>
-			<div class="ghasam-admins mb-5">
-				<div class="container">
-					<div class="row align-items-center">
-						<!-- ! TABS -->
-						<div class="col-xl-3 col-lg nsc">
-							<h1 class="h1">GHASAM</h1>
-							<h1 class="h1">COMMITTEES</h1>
-							<h1 class="h1">2020/2021</h1>
-						</div>
-						<!-- *CONTENT -->
-						<div class="tab-content col-xl-9 col-lg">
-							<!-- ! new executives -->
 							<div
-								class="current-executives tab-pane fade show active"
-								id="current-executives"
+								class="tab-pane fade"
+								id="v-pills-messages"
 								role="tabpanel"
-								aria-labelledby="current-executives"
+								aria-labelledby="v-pills-messages-tab"
 							>
-								<div class="profile-slick">
+								<div class="grid-2">
 									<!-- *1 -->
 									<div class="d-flex profile">
 										<div class="profile__info h-100 w-100">
@@ -656,271 +668,325 @@
 									</div>
 								</div>
 							</div>
+							<div
+								class="tab-pane fade"
+								id="v-pills-settings"
+								role="tabpanel"
+								aria-labelledby="v-pills-settings-tab"
+							>
+								<div class="row">
+									<div
+										class="
+											nav
+											flex-column
+											nav-pills
+											me-3
+											col-xl-3 col-lg
+											bg-yellow
+											p-3
+											h-25
+											past-executives-nav
+										"
+										id="v-pills-tab"
+										role="tablist"
+										aria-orientation="vertical"
+									>
+										<button
+											class="nav-link active"
+											id="v-pills-home-tab"
+											data-bs-toggle="pill"
+											data-bs-target="#v-pills-2019"
+											type="button"
+											role="tab"
+											aria-controls="v-pills-2019"
+											aria-selected="true"
+										>
+											2019/2020
+										</button>
+										<button
+											class="nav-link"
+											id="v-pills-profile-tab"
+											data-bs-toggle="pill"
+											data-bs-target="#v-pills-2018"
+											type="button"
+											role="tab"
+											aria-controls="v-pills-2018"
+											aria-selected="false"
+										>
+											2018/2019
+										</button>
+										<button
+											class="nav-link"
+											id="v-pills-messages-tab"
+											data-bs-toggle="pill"
+											data-bs-target="#v-pills-2017"
+											type="button"
+											role="tab"
+											aria-controls="v-pills-2017"
+											aria-selected="false"
+										>
+											2017/2018
+										</button>
+									</div>
+									<div
+										class="tab-content col-xl-8 col-lg"
+										id="v-pills-tabContent"
+									>
+										<div
+											class="tab-pane show active"
+											id="v-pills-2019"
+											role="tabpanel"
+											aria-labelledby="v-pills-home-tab"
+										>
+											<div class="grid-2">
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1 style="font-size: 35px">
+															AZILAGBETOR DAVID MAWUFEMOR
+														</h1>
+
+														<p>
+															President (2019-2020) <br />
+															General Secretary (2018-- 2019)
+														</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/david.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>SARPONG ERIC ABANKWAH</h1>
+
+														<p>
+															Vice President (2019-2020)<br />
+															Public Relations Officer (PRO) (2018-2019)
+														</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/eric.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>Miss OBENG SERWAA RACHAEL</h1>
+
+														<p>General Secretary (2019-2020)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/serwaa.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>DRAH-TAMAKLOE NEWTON</h1>
+
+														<p>
+															Financial Secretary (2019-2020) Ville Leader for
+															GHASAM Settat(2018-2019)
+														</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/adam.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>HASSAN BABS KHALID</h1>
+														<p>
+															Sports and Cultural Secretary (2019-- 2019) 2020)
+														</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/babs.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="tab-pane"
+											id="v-pills-2018"
+											role="tabpanel"
+											aria-labelledby="v-pills-profile-tab"
+										>
+											<div class="grid-2">
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>Dr. BOADI A. ASANTE JUNIOR</h1>
+
+														<p>
+															President (20182019) NSC Chairman (20172018)
+															<br />
+
+															NSC Chairman (2017-2018)<br />
+															Ville Leader of GHASAM Rabat(2017-2018)
+														</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/junior.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>BADOHU NICHOLAS MAWULI</h1>
+
+														<p>Vice President (20182019)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/nick.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1 style="font-size: 35px">
+															AZILAGBETOR DAVID MAWUFEMOR
+														</h1>
+
+														<p>General Secretary (2018-2019)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/david.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>RUTH BALLANS</h1>
+
+														<p>Financial Secretary (2018-2019)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/avatar2.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>SARPONG ERIC ABANKWAH</h1>
+
+														<p>Public Relations Officer (PRO) (2018-2019)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/eric.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="tab-pane"
+											id="v-pills-2017"
+											role="tabpanel"
+											aria-labelledby="v-pills-messages-tab"
+										>
+											<div class="grid-2">
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>OPPONG ISAAC KYEKYEKU</h1>
+
+														<p>President (2017-2018)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/opong.jpeg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>Late HUDU BAWAH MUBARAK</h1>
+
+														<p>Vice President (2017-2018)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/avatar2.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>JEFFERY TAGOE MATTHEWS</h1>
+
+														<p>General Secretary/PRO (2017-2018)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/avatar2.jpg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+												<div class="d-flex profile">
+													<div class="profile__info h-100 w-100">
+														<h1>TSIKOR GRACE KAFUI</h1>
+
+														<p>Financial Secretary (2017-2018)</p>
+													</div>
+													<div class="profile__img h-100 w-100">
+														<img
+															src="./leaders/kafui.jpeg"
+															alt="img"
+															class="h-100"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<!-- ! end of new executives -->
 					</div>
+
 					<!-- * END OF CONTENT -->
 				</div>
 			</div>
-			<!-- *PAST EXECUTIVES -->
-			<div class="past-executives bg-light ghasam-admins">
-				<div class="row">
-					<div
-						class="nav flex-column nav-pills me-3 col-xl-4 col-lg"
-						id="v-pills-tab"
-						role="tablist"
-						aria-orientation="vertical"
-					>
-						<button
-							class="nav-link active"
-							id="v-pills-home-tab"
-							data-bs-toggle="pill"
-							data-bs-target="#v-pills-home"
-							type="button"
-							role="tab"
-							aria-controls="v-pills-home"
-							aria-selected="true"
-						>
-							2019/2020
-						</button>
-						<button
-							class="nav-link"
-							id="v-pills-profile-tab"
-							data-bs-toggle="pill"
-							data-bs-target="#v-pills-profile"
-							type="button"
-							role="tab"
-							aria-controls="v-pills-profile"
-							aria-selected="false"
-						>
-							2018/2019
-						</button>
-						<button
-							class="nav-link"
-							id="v-pills-messages-tab"
-							data-bs-toggle="pill"
-							data-bs-target="#v-pills-messages"
-							type="button"
-							role="tab"
-							aria-controls="v-pills-messages"
-							aria-selected="false"
-						>
-							2017/2018
-						</button>
-					</div>
-					<div class="tab-content col-xl-7 col-lg" id="v-pills-tabContent">
-						<div
-							class="tab-pane fade show active"
-							id="v-pills-home"
-							role="tabpanel"
-							aria-labelledby="v-pills-home-tab"
-						>
-							<div class="profile-slick">
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1 style="font-size: 35px">AZILAGBETOR DAVID MAWUFEMOR</h1>
-
-										<p>
-											President (2019-2020) <br />
-											General Secretary (2018-- 2019)
-										</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/david.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>SARPONG ERIC ABANKWAH</h1>
-
-										<p>
-											Vice President (2019-2020)<br />
-											Public Relations Officer (PRO) (2018-2019)
-										</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/eric.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>Miss OBENG SERWAA RACHAEL</h1>
-
-										<p>General Secretary (2019-2020)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/serwaa.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>DRAH-TAMAKLOE NEWTON</h1>
-
-										<p>
-											Financial Secretary (2019-2020) Ville Leader for GHASAM
-											Settat(2018-2019)
-										</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/adam.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>HASSAN BABS KHALID</h1>
-										<p>Sports and Cultural Secretary (2019-- 2019) 2020)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/babs.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							class="tab-pane fade"
-							id="v-pills-profile"
-							role="tabpanel"
-							aria-labelledby="v-pills-profile-tab"
-						>
-							<div class="profile-slick">
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>Dr. BOADI A. ASANTE JUNIOR</h1>
-
-										<p>
-											President (20182019) NSC Chairman (20172018) <br />
-
-											NSC Chairman (2017-2018)<br />
-											Ville Leader of GHASAM Rabat(2017-2018)
-										</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/junior.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>BADOHU NICHOLAS MAWULI</h1>
-
-										<p>Vice President (20182019)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/nick.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1 style="font-size: 35px">AZILAGBETOR DAVID MAWUFEMOR</h1>
-
-										<p>General Secretary (2018-2019)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/david.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>RUTH BALLANS</h1>
-
-										<p>Financial Secretary (2018-2019)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/avatar2.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-								<div class="d-flex profile">
-									<div class="profile__info h-100 w-100">
-										<h1>SARPONG ERIC ABANKWAH</h1>
-
-										<p>Public Relations Officer (PRO) (2018-2019)</p>
-									</div>
-									<div class="profile__img h-100 w-100">
-										<img src="./leaders/eric.jpg" alt="img" class="h-100" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							class="tab-pane fade"
-							id="v-pills-messages"
-							role="tabpanel"
-							aria-labelledby="v-pills-messages-tab"
-						>
-							<div class="profile-slick">
-								<div
-									class="tab-pane fade"
-									id="v-pills-profile"
-									role="tabpanel"
-									aria-labelledby="v-pills-profile-tab"
-								>
-									<div class="profile-slick">
-										<div class="d-flex profile">
-											<div class="profile__info h-100 w-100">
-												<h1>OPPONG ISAAC KYEKYEKU</h1>
-
-												<p>President (2017-2018)</p>
-											</div>
-											<div class="profile__img h-100 w-100">
-												<img
-													src="./leaders/opong.jpeg"
-													alt="img"
-													class="h-100"
-												/>
-											</div>
-										</div>
-										<div class="d-flex profile">
-											<div class="profile__info h-100 w-100">
-												<h1>Late HUDU BAWAH MUBARAK</h1>
-
-												<p>Vice President (2017-2018)</p>
-											</div>
-											<div class="profile__img h-100 w-100">
-												<img
-													src="./leaders/avatar2.jpg"
-													alt="img"
-													class="h-100"
-												/>
-											</div>
-										</div>
-										<div class="d-flex profile">
-											<div class="profile__info h-100 w-100">
-												<h1>JEFFERY TAGOE MATTHEWS</h1>
-
-												<p>General Secretary/PRO (2017-2018)</p>
-											</div>
-											<div class="profile__img h-100 w-100">
-												<img
-													src="./leaders/avatar2.jpg"
-													alt="img"
-													class="h-100"
-												/>
-											</div>
-										</div>
-										<div class="d-flex profile">
-											<div class="profile__info h-100 w-100">
-												<h1>TSIKOR GRACE KAFUI</h1>
-
-												<p>Financial Secretary (2017-2018)</p>
-											</div>
-											<div class="profile__img h-100 w-100">
-												<img
-													src="./leaders/kafui.jpeg"
-													alt="img"
-													class="h-100"
-												/>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-
 		<!-- footer begin -->
-		<footer class="bg-dark footer">
+		<footer class="bg-dark">
 			<div class="container">
 				<div class="row gap-sm">
 					<div class="col-lg-3">
