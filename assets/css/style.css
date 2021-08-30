@@ -470,6 +470,11 @@ textarea {
   text-transform: capitalize !important;
 }
 
+.welcome-btn {
+  width: 600px !important;
+  letter-spacing: 0.25rem;
+}
+
 .home-hero {
   height: 100vh !important;
 }
@@ -484,6 +489,24 @@ textarea {
     height: 60px;
     width: 60px;
   }
+}
+
+.header .header-col-mid #mainmenu li {
+  text-transform: capitalize !important;
+}
+
+.header .header-col-mid #mainmenu li ul li {
+  color: #29323c !important;
+  line-height: 0 !important;
+}
+
+.header .header-col-mid #mainmenu li ul li a:hover {
+  background-color: #1a8b49 !important;
+  color: white !important;
+}
+
+.header .header-col-mid #mainmenu li:nth-child(4) ul li:nth-child(1) {
+  text-transform: uppercase !important;
 }
 
 .header.smaller {
@@ -564,6 +587,33 @@ textarea {
 @media screen and (max-width: 991px) {
   .explore .container-fluid .row {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .explore .d-flex {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.explore .d-flex > div {
+  width: 20% !important;
+}
+
+@media screen and (max-width: 991px) {
+  .explore .d-flex > div {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .explore .d-flex > div:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
   }
 }
 
