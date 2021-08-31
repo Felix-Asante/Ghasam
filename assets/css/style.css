@@ -1836,7 +1836,7 @@ textarea {
   height: 100% !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .ghasam-admins .tab-content .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1860,7 +1860,13 @@ textarea {
   padding: 2rem 1rem;
   -ms-flex-line-pack: center;
       align-content: center;
-  height: 55%;
+  height: 53%;
+}
+
+@media screen and (max-width: 991px) {
+  .ghasam-admins .tab-content .profile__info {
+    height: 40%;
+  }
 }
 
 .ghasam-admins .tab-content .profile__info p,
@@ -1869,11 +1875,17 @@ textarea {
 }
 
 .ghasam-admins .tab-content .profile__img {
-  height: 40%;
+  height: 47%;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media screen and (max-width: 991px) {
+  .ghasam-admins .tab-content .profile__img {
+    height: 60%;
+  }
 }
 
 .ghasam-admins .tab-content .profile__img:hover {
