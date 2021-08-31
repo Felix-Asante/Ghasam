@@ -1347,7 +1347,7 @@
 				</section>
 				<!-- !end of partners -->
 				<!-- * CONTACT US  -->
-				<section class="contact-us pt-3">
+				<section class="contact-us pt-3" id="contact-form">
 					<div class="container">
 						<h2 class="text-center title text-darker d-block my-5 text-white">
 							CONTACT US
@@ -1396,11 +1396,11 @@
 								</div>
 							</div>
 							<div class="col-lg-6 form bg-white py-4 px-4">
-								<div class="">
+								<div class="px-3">
 									<!-- <h5>Send us a message</h5> -->
-									<form action="d-flex flex-column align-items-center">
+									<form class="d-flex flex-column" action="./assets/php/process.php">
 										<!-- <div class="w-90"> -->
-										<div class="name">
+										<div class="name mb-3">
 											<label for=""
 												>Name<span class="text-danger">*</span>
 											</label>
@@ -1408,13 +1408,13 @@
 											<input
 												type="text"
 												class="name"
-												placeholder="name"
+												placeholder="Your name"
 												id="name"
-												name="Your name"
+												name="name"
 												required
 											/>
 										</div>
-										<div class="email">
+										<div class="email mb-3">
 											<label for=""
 												>Email<span class="text-danger">*</span>
 											</label>
@@ -1439,7 +1439,7 @@
 												placeholder="subject"
 											/>
 										</div> -->
-										<div class="mesages">
+										<div class="mesages mb-3">
 											<label for=""
 												>Message <span class="text-danger">*</span>
 											</label>
