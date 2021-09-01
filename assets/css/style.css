@@ -402,6 +402,26 @@ textarea {
           flex-direction: column-reverse !important;
 }
 
+.grid-2 .profile__info {
+  height: 35% !important;
+}
+
+@media screen and (max-width: 991px) {
+  .grid-2 .profile__info {
+    height: 25% !important;
+  }
+}
+
+.grid-2 .profile__img {
+  height: 65% !important;
+}
+
+@media screen and (max-width: 991px) {
+  .grid-2 .profile__img {
+    height: 75% !important;
+  }
+}
+
 #about .about {
   padding: 0 !important;
 }
@@ -499,6 +519,10 @@ textarea {
 .welcome-ghasam {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+#menu-btn {
+  background: transparent !important;
 }
 
 .home-hero {
