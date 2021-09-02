@@ -215,7 +215,7 @@ strong.text-danger {
 #hero {
 	background-image: url(photos/high.jpg);
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
 	position: relative;
 	z-index: 10;
 }

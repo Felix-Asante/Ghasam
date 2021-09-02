@@ -45,7 +45,7 @@
 			type="text/css"
 			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
 		/>
-		<link rel="stylesheet" href="./assets/iframe/iframe-lightbox.min.css">
+		<link rel="stylesheet" href="./assets/iframe/iframe-lightbox.min.css"/>
 
 		  <script
 			src="https://kit.fontawesome.com/fc494360f4.js"
@@ -107,7 +107,7 @@
     <div id="wrapper">
       
           	<!-- header begin -->
-			<header class="transparent header">
+				<header class="transparent header">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -140,21 +140,22 @@
 									<ul id="mainmenu">
 										<li>
 											<a href="index.html">HOME<span></span></a>
-											<ul>
+											<!-- <ul>
 												<li>
 													<a href="#description">Description & Mission</a>
 												</li>
 												<li>
 													<a href="#section-fun-facts">Partners and sponsors</a>
 												</li>
-											</ul>
+											</ul> -->
 										</li>
 										<li>
 											<a href="#">ABOUT<span></span></a>
 											<ul>
-												<!-- <li><a href="news.html">Description & Mission</a></li> -->
-												<li><a href="admin.html">Ghasam admin</a></li>
-												<!-- <li><a href="login.html">Partners and sponsors</a></li> -->
+												<li><a href="index.html#description">Description & Mission</a></li>
+												<li><a href="admin.html">GHASAM admin</a></li>
+												<li><a href="index.html#section-fun-facts">Partners and sponsors</a></li>
+												<li><a href="e-care.html">GHASAM Ecare</a></li>
 											</ul>
 										</li>
 										<li>
@@ -165,7 +166,7 @@
 												<li>
 													<a href="fsimaroc.html">Foreign student in Morocco</a>
 												</li>
-												<li><a href="sejour.html">Cart de sejour</a></li>
+												<li><a href="sejour.html">Carte de Séjour</a></li>
 												<li><a href="passport.html">Passport renewal</a></li>
 												<li><a href="holiday.html">Public holidays</a></li>
 												<li>
@@ -181,7 +182,7 @@
 													<a href="amci.html">Amci</a>
 												</li>
 												<li>
-													<a href="higheredu.html">High education in morocco</a>
+													<a href="higheredu.html">Higher education in morocco</a>
 												</li>
 												<li>
 													<a href="#c4">Schools and courses description</a>
@@ -210,8 +211,9 @@
 										<li>
 											<a href="#">MORE<span></span></a>
 											<ul>
+												<li><a href="axa.html">AXA Insurance</a></li>
 												<li>
-													<a href="more.html">Constitution</a>
+													<a href="more.html">GHASAM Constitution</a>
 												</li>
 											</ul>
 										</li>
@@ -579,7 +581,7 @@ The intentional presentation of false information or documents voids the warrant
 		
     </section>
 <!-- footer begin -->
-				<footer class="bg-dark">
+			<footer class="bg-dark">
 				<div class="container">
 					<div class="row gap-sm">
 						<div class="col-lg-3">
@@ -632,6 +634,9 @@ The intentional presentation of false information or documents voids the warrant
 						</div>
 					</div>
 				</div>
+				<div class="bg-gradient-darker mt-5">
+					<p class="text-center text-white p-3 mb-0">Copyright &copy; GHASAM, All right reserved - <span class="year"></span></p>
+				</div>
 			</footer>
 			<!-- footer close -->
       
@@ -674,7 +679,10 @@ The intentional presentation of false information or documents voids the warrant
 			crossorigin="anonymous"
 		></script>
 
- 
+ <script>
+			document.querySelector('.year').textContent = new Date().getFullYear()
+
+ </script>
 </body>
 
 </html>

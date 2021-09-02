@@ -134,21 +134,22 @@
 									<ul id="mainmenu">
 										<li>
 											<a href="index.html">HOME<span></span></a>
-											<ul>
+											<!-- <ul>
 												<li>
 													<a href="#description">Description & Mission</a>
 												</li>
 												<li>
 													<a href="#section-fun-facts">Partners and sponsors</a>
 												</li>
-											</ul>
+											</ul> -->
 										</li>
 										<li>
 											<a href="#">ABOUT<span></span></a>
 											<ul>
-												<!-- <li><a href="news.html">Description & Mission</a></li> -->
-												<li><a href="admin.html">Ghasam admin</a></li>
-												<!-- <li><a href="login.html">Partners and sponsors</a></li> -->
+												<li><a href="index.html#description">Description & Mission</a></li>
+												<li><a href="admin.html">GHASAM admin</a></li>
+												<li><a href="index.html#section-fun-facts">Partners and sponsors</a></li>
+												<li><a href="e-care.html">GHASAM Ecare</a></li>
 											</ul>
 										</li>
 										<li>
@@ -159,7 +160,7 @@
 												<li>
 													<a href="fsimaroc.html">Foreign student in Morocco</a>
 												</li>
-												<li><a href="sejour.html">Cart de sejour</a></li>
+												<li><a href="sejour.html">Carte de Séjour</a></li>
 												<li><a href="passport.html">Passport renewal</a></li>
 												<li><a href="holiday.html">Public holidays</a></li>
 												<li>
@@ -175,7 +176,7 @@
 													<a href="amci.html">Amci</a>
 												</li>
 												<li>
-													<a href="higheredu.html">High education in morocco</a>
+													<a href="higheredu.html">Higher education in morocco</a>
 												</li>
 												<li>
 													<a href="#c4">Schools and courses description</a>
@@ -204,8 +205,9 @@
 										<li>
 											<a href="#">MORE<span></span></a>
 											<ul>
+												<li><a href="axa.html">AXA Insurance</a></li>
 												<li>
-													<a href="more.html">Constitution</a>
+													<a href="more.html">GHASAM Constitution</a>
 												</li>
 											</ul>
 										</li>
@@ -478,7 +480,7 @@
 
           </table>
             </div>
-            <div class="note col-3 ">
+            <div class="note col-3 " >
            
               <h1><b>Note that:</b></h1>
 
@@ -502,7 +504,7 @@
 
     
 <!-- footer begin -->
-		<footer class="bg-dark">
+	<footer class="bg-dark">
 				<div class="container">
 					<div class="row gap-sm">
 						<div class="col-lg-3">
@@ -554,6 +556,9 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="bg-gradient-darker mt-5">
+					<p class="text-center text-white p-3 mb-0">Copyright &copy; GHASAM, All right reserved - <span class="year"></span></p>
 				</div>
 			</footer>
 			<!-- footer close -->
@@ -619,21 +624,21 @@ dots:true,
 
 </script>
   <script>
-    const menu = document.getElementById('lines')
-    const tabLinks = document.querySelector('.nav-pills')
-    const links = tabLinks.querySelectorAll('.nav-link')
+    // const menu = document.getElementById('lines')
+    // const tabLinks = document.querySelector('.nav-pills')
+    // const links = tabLinks.querySelectorAll('.nav-link')
 
-    menu.addEventListener('click',()=>{
-      menu.classList.toggle('open')
-      tabLinks.classList.toggle('active')
-    })
+    // menu.addEventListener('click',()=>{
+    //   menu.classList.toggle('open')
+    //   tabLinks.classList.toggle('active')
+    // })
     
-    links.forEach(link=>{
-      link.addEventListener('click',()=>{
-        tabLinks.classList.remove('active')        
-        menu.classList.remove('open')        
-      })
-    })
+    // links.forEach(link=>{
+    //   link.addEventListener('click',()=>{
+    //     tabLinks.classList.remove('active')        
+    //     menu.classList.remove('open')        
+    //   })
+    // })
 
     // window.addEventListener('resize',()=>{
     //   console.log(window.innerWidth)
@@ -641,6 +646,8 @@ dots:true,
     //     document.querySelector('.gallery').classList.remove('ghana__gallery')
     //   }
     // })
+			document.querySelector('.year').textContent = new Date().getFullYear()
+
   </script>
 </body>
 
