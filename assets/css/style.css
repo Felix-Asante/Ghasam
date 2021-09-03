@@ -275,7 +275,7 @@ li::marker {
 
 .widget p {
   color: white;
-  font-size: 1rem !important;
+  font-size: 1.4rem !important;
   line-height: 1.4;
 }
 
@@ -479,11 +479,6 @@ textarea {
 .admin-title {
   font-size: 5rem !important;
   margin: 1rem 0 !important;
-}
-
-.nsc-definition {
-  font-size: 1.6rem !important;
-  line-height: 1.5;
 }
 
 .past-executives-nav {
@@ -2192,6 +2187,17 @@ footer li {
   margin: auto;
 }
 
+.ghasam-admins .tab-content p {
+  font-size: 1.4rem !important;
+  font-weight: 300 !important;
+}
+
+.ghasam-admins .tab-content .nsc-definition {
+  font-size: 1.6rem !important;
+  line-height: 1.5;
+  font-weight: 400 !important;
+}
+
 .ghasam-admins .tab-content .grid-2 {
   height: 100% !important;
 }
@@ -2269,20 +2275,20 @@ footer li {
   cursor: pointer;
 }
 
-.ecare-side-bar {
+.side-bar {
   top: 20%;
   z-index: 10;
 }
 
 @media screen and (max-width: 991px) {
-  .ecare-side-bar {
+  .side-bar {
     position: static !important;
     top: 10%;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .ecare-side-bar {
+  .side-bar {
     margin-bottom: 7rem !important;
   }
 }
