@@ -550,6 +550,13 @@ textarea {
   padding-left: 1rem;
 }
 
+p,
+li,
+.lead {
+  font-size: 1.7rem !important;
+  font-weight: 400 !important;
+}
+
 .showcase-slider .home-slider {
   position: relative;
 }
