@@ -80,99 +80,77 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="header.css">
+		 <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 	</head>
 
 	<body class="hide-rtl">
 		<div id="wrapper">
 			<!-- header begin -->
-			<header class="transparent header">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="de-flex sm-pt10 header-space">
-								<div class="de-flex-col">
-									<!-- logo begin -->
-									<div id="logo">
-										<a href="index.html">
-											<img
-												alt=""
-												class="logo"
-												src="./assets/img/ghasam-logo.png"
-												width="80px"
-												height="80px"
-											/>
-											<img
-												alt=""
-												class="logo-2"
-												src="./assets/img/ghasam-logo.png"
-												width="30px"
-												height="30px"
-											/>
-											<!-- <img alt="" class="logo-2" src="images/logo.png" /> -->
-										</a>
-									</div>
-									<!-- logo close -->
-								</div>
-								<div class="de-flex-col header-col-mid">
-									<!-- mainmenu begin -->
-									<ul id="mainmenu">
-										<li>
-											<a href="index.html">HOME<span></span></a>
-											<ul>
-												<li>
-													<a href="#description">Description & Mission</a>
-												</li>
-												<li>
-													<a href="#section-fun-facts">Partners and sponsors</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">ABOUT<span></span></a>
-											<ul>
-												<!-- <li><a href="news.html">Description & Mission</a></li> -->
-												<li><a href="admin.html">Ghasam admin</a></li>
-												<!-- <li><a href="login.html">Partners and sponsors</a></li> -->
-											</ul>
-										</li>
-										<li>
-											<a href="#">EXPLORE<span></span></a>
-											<ul>
-												<li><a href="about_ghana.html">About Ghana</a></li>
+				<nav id="navbar">
+			<div class="nav-header">
+				<i class="bx bx-menu bx-lg" ></i>
+				<div class="logo"><a href="index.html"><img src="./assets/img/ghasam-logo.png" alt=""></a></div>
+				<div class="menu-links">
+					<div class="sidebar-logo">
+						<a class="logo-name" href="index.html">
+							<img src="./assets/img/ghasam-logo.png" alt="">
+						</a>
+						<i class="bx bx-x"></i>
+					</div>
+					<ul class="links">
+						<li><a href="#">HOME</a></li>
+						<li>
+							<a href="#">ABOUT</a>
+							<i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li><a href="index.html#description">Description & Mission</a></li>
+												<li><a href="admin.html">GHASAM admin</a></li>
+												<li><a href="index.html#section-fun-facts">Partners and sponsors</a></li>
+												<li><a href="e-care.html">GHASAM Ecare</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">EXPLORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="about_ghana.html">About Ghana</a></li>
 												<li><a href="about_morocco.html">About Morocco</a></li>
 												<li>
 													<a href="fsimaroc.html">Foreign student in Morocco</a>
 												</li>
-												<li><a href="sejour.html">Cart de sejour</a></li>
+												<li><a href="sejour.html">Carte de Séjour</a></li>
 												<li><a href="passport.html">Passport renewal</a></li>
 												<li><a href="holiday.html">Public holidays</a></li>
 												<li>
 													<a href="oim.html">Opportunities in Morocco</a>
 												</li>
-											</ul>
-										</li>
-
-										<li>
-											<a href="#">STUDYING IN MOROCCO<span></span></a>
-											<ul>
-												<li>
-													<a href="amci.html">Amci</a>
+							</ul>
+						</li>
+						<li>
+							<a href="#">STUDYING IN MOROCCO</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li>
+													<a href="amci.html">AMCI</a>
 												</li>
 												<li>
-													<a href="higheredu.html">High education in morocco</a>
+													<a href="higheredu.html">Higher education in morocco</a>
 												</li>
 												<li>
-													<a href="#c4">Schools and courses description</a>
+													<a href="higheredu.html#c4">Schools and courses description</a>
 												</li>
 												<li>
-													<a href="#c5">Study material</a>
+													<a href="higheredu.html#c5">Study material</a>
 												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">GHASAM SECTION<span></span></a>
-											<ul>
-												<li><a href="">Ghasam Rabat</a></li>
+							</ul>
+						</li>
+							<li>
+							<a href="#">GHASAM SECTION</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="">Ghasam Rabat</a></li>
 												<li><a href="">Ghasam Fes</a></li>
 												<li><a href="">Ghasam Kenitra</a></li>
 												<li><a href="">Ghasam Oujda</a></li>
@@ -183,754 +161,152 @@
 												<li><a href="">Ghasam Marakech</a></li>
 												<li><a href="">Ghasam Agadir</a></li>
 												<li><a href="">Ghasam Tanger</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">MORE<span></span></a>
-											<ul>
+							</ul>
+						</li>
+						<li>
+							<a href="#">MORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="axa.html">AXA Insurance</a></li>
 												<li>
-													<a href="more.html">Constitution</a>
+													<a href="more.html">GHASAM Constitution</a>
 												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-								<div class="de-flex-col">
-									<div class="h-phone">
-										<span>Need&nbsp;Help?</span
-										><i class="fa fa-phone id-color-secondary"></i> +212
-										637-067409
-									</div>
-									<span id="menu-btn"></span>
-								</div>
-							</div>
-						</div>
-					</div>
+							</ul>
+						</li>
+					</ul>
 				</div>
-			</header>
+				<div class="h-phone">
+					<span>Need&nbsp;Help?</span>
+					<!-- <i class="text-yellow bx bxs-phone bx-lg " style="font-size: 4rem !important;"></i> -->
+										
+					<i class="fas fa-phone id-color-secondary"></i> +212 637-067409
+				</div>
+			</div>
+		</nav>
 			<!-- header close -->
 			<!-- content begin -->
 			<div class="no-bottom no-top" id="content">
 				<div id="top"></div>
 
 				<!-- revolution slider begin -->
-				<section
-					id="section-slider"
-					class="fullwidthbanner-container text-light"
-					aria-label="section-slider"
-				>
-					<div id="slider-revolution">
-						<ul>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/1.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="230"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h1 class="text-danger welcome-text">Hello!</h1>
-								</div>
-								<div
-									class="tp-caption very-big-white ps-3 tp-resizeme"
-									data-x="0"
-									data-y="340"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h1 class="welcomee text-yellow welcome-ghasam welcome-text">GHASAM</h1>
-									<h1 class="welcomee text-green welcome-text">Welcomes You</h1>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="480"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<!-- <a
-										class="d-block p-2 fw-bold welcome-btn"
-										href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp; -->
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/2.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="270"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.4rem; text-transform: uppercase">
-										Cultural dance “Adowa”
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="340"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.4rem; text-transform: uppercase">
-										during GHASAM’s dinner
-									</h3>
-									<h3 style="font-size: 3.4rem; text-transform: uppercase">
-										and awards night
-									</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/3.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="260"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										H.E. Samiratu Bawumia delivering
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="330"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										a speech to students on her
-									</h3>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										visit to Morocco
-									</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/4.jpeg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="260"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="text-transform: uppercase; font-size: 3.3rem">
-										Interaction between the
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="330"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										Second Lady and Ghanaian
-									</h3>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										students in Morocco
-									</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/5B.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="270"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="text-transform: uppercase; font-size: 3.3rem">
-										Welcoming of new students
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="340"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										at the Ghana Embassy
-									</h3>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										in Morocco
-									</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/sup.jpeg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="310"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 class="mb-big">Celebration of</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="340"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 class="mt-5">our graduates</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="480"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/sup2.jpeg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="290"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 class="mb-big">Graduation ceremony</h3>
-									<br /><br /><br /><br /><br />
-								</div>
-								<div
-									class="tp-caption very-big-white ps-3"
-									data-x="0"
-									data-y="350"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h5>
-										– graced by the Registrar of scholarships, Mr. Kingsley
-										Agyemang;
-									</h5>
-
-									<h5>
+			<div class="showcase-slider">
+				<div class="home-slider">
+					<div class=" slide slide-1">
+						<h3 class="h3 text-danger welcome-text">Hello!</h3>
+						<h3 class="h3 text-yellow">GHASAM</h3>
+						<h3 class="h3 text-green">Welcomes you</h3>
+					</div>
+					<div class=" slide slide-2">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Cultural dance “Adowa”
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						during GHASAM’s dinner
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						and awards night
+					</h3>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+						<div class=" slide slide-3">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						H.E. Samiratu Bawumia delivering
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						a speech to students on her
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						visit to Morocco
+					</h3>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+					<div class=" slide slide-4">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Welcoming of new students			
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+							at the Ghana Embassy
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						in Morocco
+					</h3>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+					<div class=" slide slide-5">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Interaction between the					
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Second Lady and Ghanaian
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						students in Morocco
+					</h3>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+					
+					<div class=" slide slide-6">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Celebration of			
+					</h3>
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						our graduates
+					</h3>
+					
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+						
+					<div class=" slide slide-7">
+					<h3 style="font-size:3.4rem; text-transform:uppercase">
+						Graduation ceremony		
+					</h3>
+					<h5 >
+						– graced by the Registrar of scholarships, Mr. Kingsley
+						Agyemang;
+					</h5>
+					<h5>
 										former ambassador of Ghana to Morocco, H.E. Stephen Yakubu;
 									</h5>
 									<h5>and the Consular Officer, Mr Bernard Quantson.</h5>
-								</div>
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="480"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/6.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="330"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="text-transform: uppercase; font-size: 3.3rem">
-										Awards and dinner night
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="280"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<!-- <h1>GHASAM Welcomes You</h1> -->
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/8.jpg"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="330"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										Awards and dinner night
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="280"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<!-- <h1>GHASAM Welcomes You</h1> -->
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-							<li
-								data-transition="fade"
-								data-slotamount="10"
-								data-masterspeed="300"
-								data-thumb=""
-							>
-								<!--  BACKGROUND IMAGE -->
-								<img
-									alt=""
-									class="rev-slidebg"
-									data-bgposition="top center"
-									data-bgfit="cover"
-									data-bgrepeat="no-repeat"
-									data-bgparallax="10"
-									src="./assets/img/slider/9.png"
-								/>
-								<div
-									class="tp-caption big-s1 ps-3"
-									data-x="0"
-									data-y="300"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;"
-									data-start="500"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="text-transform: uppercase; font-size: 3.3rem">
-										GHASAM snow trip to Ifrane,
-									</h3>
-								</div>
-								<div
-									class="tp-caption very-big-white tp-resizeme ps-3"
-									data-x="0"
-									data-y="380"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:400;e:Power2.easeInOut;"
-									data-start="600"
-									data-splitin="none"
-									data-splitout="none"
-									data-responsive_offset="on"
-								>
-									<h3 style="font-size: 3.3rem; text-transform: uppercase">
-										in the region of Fès-Meknès
-									</h3>
-								</div>
-
-								<div
-									class="tp-caption ps-3"
-									data-x="0"
-									data-y="450"
-									data-width="none"
-									data-height="none"
-									data-whitespace="nowrap"
-									data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;"
-									data-transform_out="opacity:0;y:-100;s:800;e:Power2.easeInOut;"
-									data-start="800"
-								>
-									<a class="btn-custom invert" href="features.html"
-										>GHANAIAN STUDENTS ASSOCIATION IN MOROCCO </a
-									>&nbsp;
-									<!-- <a class="btn-border" href="download.html">Learn More</a> -->
-								</div>
-							</li>
-						</ul>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
 					</div>
-				</section>
+					<div class=" slide slide-8">
+					<h3 style="text-transform: uppercase; font-size: 3.3rem">
+										Awards and dinner night
+					</h3>
+					
+					
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+					<div class=" slide slide-9">
+					<h3 style="text-transform: uppercase; font-size: 3.3rem">
+										Awards and dinner night
+					</h3>
+					
+					
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+					<div class=" slide slide-10">
+						<h3 style="text-transform: uppercase; font-size: 3.3rem">
+										GHASAM snow trip to Ifrane,
+						</h3>
+					
+						<h3 style="font-size: 3.3rem; text-transform: uppercase">
+										in the region of Fès-Meknès
+						</h3>
+						<button type="button" class="mt-4 btn btn-yellow">Ghanaian students association in morocco</button>
+					
+					</div>
+				</div>
+			</div>
 				<!-- revolution slider close -->
 				<!-- ! EXPLORE: QUICK LINKS -->
 				<section class="no-padding text-light bg-color explore">
@@ -1087,7 +463,7 @@
 							<h1 class="text text-darker h1 mb-3">About GHASAM</h1>
 
 							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-								<li class="nav-item">
+								<div class="nav-item">
 									<a
 										class="nav-link active text-dark"
 										id="pills-home-tab"
@@ -1690,8 +1066,7 @@
 
 			// ! HIDE SOCIAL BAR
 			window.addEventListener("scroll", () => {
-				console.log(window.pageYOffset);
-				console.log("scrollY", window.scrollY);
+				
 
 				if (window.pageYOffset < 575 || window.pageYOffset >= 2878) {
 					document.querySelector(".social-toolbar").classList.add("d-none");
@@ -1700,7 +1075,18 @@
 				}
 			});
 
+			// FOOTER YEAR
 			document.querySelector('.year').textContent = new Date().getFullYear()
+		// HOME SLIDER
+		$(".home-slider").slick({
+				autoplay: true,
+				autoplaySpeed: 4000,
+				dot: true,
+				fade: true,
+				adaptiveHeight: true,
+				prevArrow: "<i class='prev fas fa-angle-left fa-2x text-white'></i>",
+				nextArrow: "<i class='next fas fa-angle-right fa-2x text-white'></i>",
+			});
 		</script>
 		<script src="mobileHeader.js"></script>
 	</body>

@@ -895,10 +895,10 @@ header.s2 #mainmenu > li > a {
 }
 header.header-mobile {
 	position: absolute;
-	/* background: #fff; */
-	background-color: transparent;
+	background: #fff;
+	/* background-color: transparent; */
 	top: 0;
-	height: 70px;
+	height: 50px;
 }
 header.header-mobile.has-topbar {
 	height: 100px;

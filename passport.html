@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-<title>GHASAM | Carte de sejour</title>
+<title>GHASAM | Passport</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="author">
@@ -66,67 +66,45 @@
 			src="https://kit.fontawesome.com/fc494360f4.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="header.css">
+		<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+		<script defer src="mobileHeader.js"></script>
+		
 </head>
 
 <body>
     <div id="wrapper">
       
            	<!-- header begin -->
-			<header class="transparent header">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="de-flex sm-pt10">
-								<div class="de-flex-col">
-									<!-- logo begin -->
-									<div id="logo">
-										<a href="index.html">
-											<img
-												alt=""
-												class="logo"
-												src="./assets/img/ghasam-logo.png"
-												width="80px"
-												height="80px"
-											/>
-											<img
-												alt=""
-												class="logo-2"
-												src="./assets/img/ghasam-logo.png"
-												width="30px"
-												height="30px"
-											/>
-											<!-- <img alt="" class="logo-2" src="images/logo.png" /> -->
-										</a>
-									</div>
-									<!-- logo close -->
-								</div>
-								<div class="de-flex-col header-col-mid">
-									<!-- mainmenu begin -->
-									<ul id="mainmenu">
-										<li>
-											<a href="index.html">HOME<span></span></a>
-											<!-- <ul>
-												<li>
-													<a href="#description">Description & Mission</a>
-												</li>
-												<li>
-													<a href="#section-fun-facts">Partners and sponsors</a>
-												</li>
-											</ul> -->
-										</li>
-										<li>
-											<a href="#">ABOUT<span></span></a>
-											<ul>
-												<li><a href="index.html#description">Description & Mission</a></li>
+			<nav id="navbar">
+			<div class="nav-header">
+				<i class="bx bx-menu bx-lg" ></i>
+				<div class="logo"><a href="index.html"><img src="./assets/img/ghasam-logo.png" alt=""></a></div>
+				<div class="menu-links">
+					<div class="sidebar-logo">
+						<a class="logo-name" href="index.html">
+							<img src="./assets/img/ghasam-logo.png" alt="">
+						</a>
+						<i class="bx bx-x"></i>
+					</div>
+					<ul class="links">
+						<li><a href="#">HOME</a></li>
+						<li>
+							<a href="#">ABOUT</a>
+							<i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li><a href="index.html#description">Description & Mission</a></li>
 												<li><a href="admin.html">GHASAM admin</a></li>
 												<li><a href="index.html#section-fun-facts">Partners and sponsors</a></li>
 												<li><a href="e-care.html">GHASAM Ecare</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">EXPLORE<span></span></a>
-											<ul>
-												<li><a href="about_ghana.html">About Ghana</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">EXPLORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="about_ghana.html">About Ghana</a></li>
 												<li><a href="about_morocco.html">About Morocco</a></li>
 												<li>
 													<a href="fsimaroc.html">Foreign student in Morocco</a>
@@ -137,30 +115,31 @@
 												<li>
 													<a href="oim.html">Opportunities in Morocco</a>
 												</li>
-											</ul>
-										</li>
-
-										<li>
-											<a href="#">STUDYING IN MOROCCO<span></span></a>
-											<ul>
-												<li>
-													<a href="amci.html">Amci</a>
+							</ul>
+						</li>
+						<li>
+							<a href="#">STUDYING IN MOROCCO</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li>
+													<a href="amci.html">AMCI</a>
 												</li>
 												<li>
 													<a href="higheredu.html">Higher education in morocco</a>
 												</li>
 												<li>
-													<a href="#c4">Schools and courses description</a>
+													<a href="higheredu.html#c4">Schools and courses description</a>
 												</li>
 												<li>
-													<a href="#c5">Study material</a>
+													<a href="higheredu.html#c5">Study material</a>
 												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">GHASAM SECTION<span></span></a>
-											<ul>
-												<li><a href="">Ghasam Rabat</a></li>
+							</ul>
+						</li>
+							<li>
+							<a href="#">GHASAM SECTION</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="">Ghasam Rabat</a></li>
 												<li><a href="">Ghasam Fes</a></li>
 												<li><a href="">Ghasam Kenitra</a></li>
 												<li><a href="">Ghasam Oujda</a></li>
@@ -171,32 +150,28 @@
 												<li><a href="">Ghasam Marakech</a></li>
 												<li><a href="">Ghasam Agadir</a></li>
 												<li><a href="">Ghasam Tanger</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">MORE<span></span></a>
-											<ul>
-												<li><a href="axa.html">AXA Insurance</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">MORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="axa.html">AXA Insurance</a></li>
 												<li>
 													<a href="more.html">GHASAM Constitution</a>
 												</li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-								<div class="de-flex-col">
-									<div class="h-phone">
-										<span>Need&nbsp;Help?</span
-										><i class="fa fa-phone id-color-secondary"></i> +212
-										637-067409
-									</div>
-									<span id="menu-btn"></span>
-								</div>
-							</div>
-						</div>
-					</div>
+							</ul>
+						</li>
+					</ul>
 				</div>
-			</header>
+				<div class="h-phone">
+					<span>Need&nbsp;Help?</span>
+					<!-- <i class="text-yellow bx bxs-phone bx-lg " style="font-size: 4rem !important;"></i> -->
+										
+					<i class="fas fa-phone id-color-secondary"></i> +212 637-067409
+				</div>
+			</div>
+		</nav>
 			<!-- header close -->
       
 
