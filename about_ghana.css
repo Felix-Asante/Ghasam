@@ -22,11 +22,11 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.1rem;
+	font-size: 1.1rem !important;
 	margin-top: 5px;
 	line-height: 2;
 	font-weight: 400;
-	letter-spacing: 0.05rem;
+	/* letter-spacing: 0.05rem; */
 }
 .section-title {
 	font-size: 4rem;

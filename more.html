@@ -87,6 +87,10 @@
 	opacity: 0.7;
 	z-index: -1;
 }
+p,li{
+  font-size: 1rem !important;
+
+}
 		</style>
     <link rel="stylesheet" href="header.css">
 		<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -232,7 +236,7 @@
 
         <!-- constitution body -->
         <!-- ! CHAPTER 1 -->
-        <div class="accordion mb-4 px-3 ">
+        <div class="accordion mb-4 px-3 mt-5">
           <div class="accordion-item bg-transparent ">
             <h2 class="accordion-header d-block" >
               <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#ChapterOneBody" aria-expanded="false" aria-controls="ChapterOneBody">
@@ -1039,7 +1043,7 @@ g) Any leader not performing duties stated in the constitution can be subjected 
 		<script src="js/jquery.countTo.js"></script>
         <script src="js/jquery.countdown.js"></script>
         <script src="js/designesia.js"></script>
-          <script src="./app.js"></script>
+          <!-- <script src="./app.js"></script> -->
 
 	<!-- slick JS -->
 		<script
@@ -1080,21 +1084,21 @@ dots:true,
 
 </script>
   <script>
-    const menu = document.getElementById('lines')
-    const tabLinks = document.querySelector('.nav-pills')
-    const links = tabLinks.querySelectorAll('.nav-link')
+    // const menu = document.getElementById('lines')
+    // const tabLinks = document.querySelector('.nav-pills')
+    // const links = tabLinks.querySelectorAll('.nav-link')
 
-    menu.addEventListener('click',()=>{
-      menu.classList.toggle('open')
-      tabLinks.classList.toggle('active')
-    })
+    // menu.addEventListener('click',()=>{
+    //   menu.classList.toggle('open')
+    //   tabLinks.classList.toggle('active')
+    // })
     
-    links.forEach(link=>{
-      link.addEventListener('click',()=>{
-        tabLinks.classList.remove('active')        
-        menu.classList.remove('open')        
-      })
-    })
+    // links.forEach(link=>{
+    //   link.addEventListener('click',()=>{
+    //     tabLinks.classList.remove('active')        
+    //     menu.classList.remove('open')        
+    //   })
+    // })
 			document.querySelector('.year').textContent = new Date().getFullYear()
 
 

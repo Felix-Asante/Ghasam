@@ -551,10 +551,13 @@ textarea {
 }
 
 p,
-li,
-.lead {
+li {
   font-size: 1.7rem !important;
   font-weight: 400 !important;
+}
+
+footer li {
+  font-size: 1rem !important;
 }
 
 .showcase-slider .home-slider {
