@@ -623,7 +623,7 @@ footer li {
 
 @media screen and (max-width: 600px) {
   .showcase-slider .home-slider .slide .btn {
-    font-size: 0.6rem !important;
+    font-size: 0.9rem !important;
   }
 }
 
@@ -963,9 +963,9 @@ footer li {
 }
 
 #message .container .row .message__image {
-  height: 80%;
+  height: 50%;
   z-index: 10;
-  margin-top: 6rem;
+  margin-top: 2rem;
   position: relative;
 }
 
