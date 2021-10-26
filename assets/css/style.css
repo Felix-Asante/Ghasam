@@ -1895,7 +1895,6 @@ footer li {
         align-self: center;
     width: 100%;
     background: #fff;
-    z-index: 120;
     top: 10px;
   }
 }
